@@ -1,0 +1,4 @@
+to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/skill/SKILL.md` | 20 | 20 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/tdd/SKILL.md` | 1 | 1 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/ultrapilot/SKILL.md` | 11 | 16 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |

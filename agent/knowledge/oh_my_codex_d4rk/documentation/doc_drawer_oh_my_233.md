@@ -1,0 +1,2 @@
+oose one mode clearly (`$deep-interview`, `$ralplan`, `$team`, or solo execute) before mixing lanes.
+- When guidance conflicts are found, fix wording while preserving existing behavioral semantics unless explicitly versioned.

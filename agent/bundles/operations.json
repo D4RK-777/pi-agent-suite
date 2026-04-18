@@ -1,0 +1,14 @@
+{
+  "name": "operations",
+  "label": "Operations Bundle",
+  "description": "Deployment, monitoring, incident response, and reliability.",
+  "skills": [
+    "incident-and-recovery",
+    "observability-and-monitoring",
+    "expert-orchestration",
+    "delivery-testing",
+    "adaptive-error-recovery"
+  ],
+  "domains": ["reliability-operations"],
+  "for_roles": ["devops", "sre", "backend-dev"]
+}

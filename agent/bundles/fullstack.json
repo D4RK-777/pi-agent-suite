@@ -1,0 +1,24 @@
+{
+  "name": "fullstack",
+  "label": "Full-Stack Bundle",
+  "description": "Complete development stack - frontend, backend, security, and testing.",
+  "skills": [
+    "frontend-engineering",
+    "expert-frontend",
+    "backend-engineering",
+    "expert-backend",
+    "data-and-persistence",
+    "security-and-auth",
+    "expert-auth",
+    "frontend-quality",
+    "delivery-testing",
+    "delivery-code-review",
+    "adaptive-error-recovery",
+    "recursive-improvement-loop",
+    "mempalace-workflow",
+    "problem-framing",
+    "findings-synthesis"
+  ],
+  "domains": ["frontend-experience", "backend-platform", "security-assurance", "delivery-quality"],
+  "for_roles": ["fullstack-dev", "any"]
+}

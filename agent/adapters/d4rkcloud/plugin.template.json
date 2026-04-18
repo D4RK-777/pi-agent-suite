@@ -1,0 +1,9 @@
+{
+  "name": "d4rkcloud",
+  "version": "0.1.0",
+  "description": "D4rkCloud branded package backed by the canonical D4rkMynd shared skills root",
+  "author": {
+    "name": "D4rkCloud",
+    "email": "d4rkclawds@d4rkcloud.io"
+  }
+}

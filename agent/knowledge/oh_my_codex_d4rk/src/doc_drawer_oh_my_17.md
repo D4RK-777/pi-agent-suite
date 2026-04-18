@@ -1,0 +1,28 @@
+her',
+    description: 'External documentation and reference research',
+    reasoningEffort: 'high',
+    posture: 'fast-lane',
+    modelClass: 'standard',
+    routingRole: 'specialist',
+    tools: 'analysis',
+    category: 'domain',
+  },
+
+  // Product Lane
+  'product-manager': {
+    name: 'product-manager',
+    description: 'Problem framing, personas/JTBD, PRDs',
+    reasoningEffort: 'medium',
+    posture: 'frontier-orchestrator',
+    modelClass: 'standard',
+    routingRole: 'leader',
+    tools: 'analysis',
+    category: 'product',
+  },
+  'ux-researcher': {
+    name: 'ux-researcher',
+    description: 'Heuristic audits, usability, accessibility',
+    reasoningEffort: 'medium',
+    posture: 'frontier-orchestrator',
+    modelClass: 'standard',
+    routingRole: 'specialist',

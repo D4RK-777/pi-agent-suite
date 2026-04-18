@@ -1,0 +1,3 @@
+e only)* User chooses via the structured `AskUserQuestion` UI (never ask for approval in plain text)
+9. On user approval (--interactive only):
+   - **Approve and execute**: **MUST** invoke `$ralph` with the approved plan path from `.omx/plans/` as context **plus the explicit available-agent-types roster, suggested reasoning levels, concrete role allocation guidance, and direct launch hints for Ralph follow-up work**. Do NOT implement directly. Do NOT edit source code files in the planning agent. The ralph skill handles execution via ultrawork parallel agents.

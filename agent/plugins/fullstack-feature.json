@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-feature",
+  "description": "Build a complete full-stack feature with frontend, backend, and tests",
+  "trigger": ["full-stack", "complete feature", "end-to-end feature", "new feature"],
+  "agents": ["backend", "frontend", "tester", "reviewer"],
+  "skills": {
+    "backend": ["backend-engineering", "data-and-persistence", "security-and-auth"],
+    "frontend": ["frontend-engineering", "frontend-quality", "adaptive-error-recovery"],
+    "tester": ["delivery-testing"],
+    "reviewer": ["delivery-code-review"]
+  },
+  "steps": [
+    { "agent": "backend", "description": "Design and implement backend API" },
+    { "agent": "frontend", "description": "Build frontend UI" },
+    { "agent": "tester", "description": "Write integration tests" },
+    { "agent": "reviewer", "description": "Final review" }
+  ],
+  "chain_mode": "sequential"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "label": "Frontend Bundle",
+  "description": "UI development, React, Next.js, styling, animations, and frontend quality.",
+  "skills": [
+    "frontend-engineering",
+    "expert-frontend",
+    "frontend-quality",
+    "gsap",
+    "expert-optimization",
+    "adaptive-error-recovery",
+    "mempalace-workflow",
+    "react-best-practices",
+    "deploy-to-vercel",
+    "web-design-guidelines"
+  ],
+  "domains": ["frontend-experience"],
+  "for_roles": ["frontend-dev", "ui-engineer", "web-dev"]
+}

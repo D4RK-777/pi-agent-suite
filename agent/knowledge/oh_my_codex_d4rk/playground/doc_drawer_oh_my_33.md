@@ -1,0 +1,17 @@
+final_candidate_rng,
+        final_candidate_pool_size,
+        dim,
+        active_dimensions,
+        inactive_value=inactive_value,
+    )
+    final_candidates = np.vstack([final_candidates, X_array])
+    final_mu = gp.predict(final_candidates[:, active_dimensions])
+    incumbent = final_candidates[int(np.argmax(final_mu))]
+    resample_rng = np.random.default_rng(seed + 10_000)
+    final_scores = np.array([noisy_objective(incumbent, resample_rng) for _ in range(final_resamples)], dtype=float)
+    return {
+        'algorithm': 'bayesian_gp',
+        'active_dimensions': active_dimensions,
+        'best_observed': float(np.max(y_array)),
+        'best_mean': float(final_scores.mean()),
+        'best_std': float(final_scores.std(ddof=0)),

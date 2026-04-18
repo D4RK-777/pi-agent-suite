@@ -1,0 +1,11 @@
+rd<string, string | null>;
+  recommended_inspect_approval_decided_at: Record<string, string | null>;
+  recommended_inspect_approval_record_present: Record<string, boolean | null>;
+  recommended_inspect_states: Record<string, WorkerStatus['state'] | null>;
+  recommended_inspect_state_reasons: Record<string, string | null>;
+  recommended_inspect_tasks: Record<string, string | null>;
+  recommended_inspect_subjects: Record<string, string | null>;
+  recommended_inspect_task_paths: Record<string, string | null>;
+  recommended_inspect_approval_paths: Record<string, string | null>;
+  recommended_inspect_worker_state_dirs: Record<string, string | null>;
+  recommended_inspect_worker_status_paths: Record<string, string | null>;

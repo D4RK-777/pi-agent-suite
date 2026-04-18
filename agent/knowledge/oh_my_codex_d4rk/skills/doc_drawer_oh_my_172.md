@@ -1,0 +1,3 @@
+d Output:** Planning/execution progress, QA evidence, and validation artifacts produced by autopilot
+- **Best When:** The clarified spec is already strong enough for direct planning + execution without an additional consensus gate
+- **Next Recommended Step:** Continue through autopilot's execution/QA/validation flow; if coordination-heavy execution emerges, prefer a follow-up `$team` or `$ralph` lane as appropriate

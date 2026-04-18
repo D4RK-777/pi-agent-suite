@@ -1,0 +1,11 @@
+ME/AGENTS.md` se ridefinito) con `./AGENTS.md` del progetto, quindi aggiungono l'overlay di runtime.
+- I file `AGENTS.md` esistenti non vengono mai sovrascritti in silenzio: in TTY interattivo il setup chiede prima di sostituire; in modalità non interattiva la sostituzione viene saltata salvo `--force` (i controlli di sicurezza della sessione attiva restano validi).
+- Aggiornamenti `config.toml` (per entrambi gli scope):
+  - `notify = ["node", "..."]`
+  - `model_reasoning_effort = "high"`
+  - `developer_instructions = "..."`
+  - `[features] multi_agent = true, child_agents_md = true`
+  - Voci server MCP (`omx_state`, `omx_memory`, `omx_code_intel`, `omx_trace`)
+  - `[tui] status_line`
+- `AGENTS.md` specifico dello scope
+- Directory di esecuzione `.omx/` e configurazione HUD

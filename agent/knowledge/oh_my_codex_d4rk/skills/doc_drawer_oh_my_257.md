@@ -1,0 +1,3 @@
+ecurity, migrations, destructive changes, production incidents, compliance/PII, public API breakage)
+- In consensus mode with `--interactive`: use `AskUserQuestion` for the user feedback step (step 2) and the final approval step (step 7) -- never ask for approval in plain text. Without `--interactive`, auto-proceed through planning steps without pausing. Output the final plan without execution.
+- In consensus mode with `--interactive`, on user approval **MUST** invoke `$ralph` for execution (step 9) -- never implement directly in the planning agent

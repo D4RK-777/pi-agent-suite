@@ -1,0 +1,16 @@
+his role is tuned for standard-capability models.",
+    "- Balance autonomy with clear boundaries.",
+    "- Prefer explicit verification and narrow scope control over speculative reasoning.",
+    "",
+    "</model_class_guidance>",
+  ].join("\n"),
+  fast: [
+    "<model_class_guidance>",
+    "",
+    "This role is tuned for fast/low-latency models.",
+    "- Prefer quick search, synthesis, and routing over prolonged reasoning.",
+    "- Escalate rather than bluff when deeper work is required.",
+    "",
+    "</model_class_guidance>",
+  ].join("\n"),
+};

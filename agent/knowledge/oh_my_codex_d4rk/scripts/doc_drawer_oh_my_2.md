@@ -1,0 +1,5 @@
+_tests__/cross-rebase-smoke.test.js",
+    "test:node": "node --test $(find dist -name '*.test.js')",
+    "test:node:cross-platform": "node dist/scripts/run-test-files.js dist",
+    "test": "npm run build && npm run test:node && node dist/scripts/generate-catalog-docs.js --check",
+    "coverage:team-critical": "npm run build && c8 --all --src dist/team --src dist/state --include 'dist/team/**/*.js' --include 'dist/state/**/*.js' --exclude '**/__tests__/**' --reporter=text-summary --reporter=lcov --reporter=json-summary --report-dir coverage/team --check-coverage --lines=78 --functions=90 --branches=70 --statements=78 node --test $(find dist/team/__tests__ dist/state/__tests__ -name '*.test.js')",

@@ -1,0 +1,19 @@
+{
+  "name": "security",
+  "label": "Security Bundle",
+  "description": "Security reviews, vulnerability scanning, and auth implementation.",
+  "skills": [
+    "security-and-auth",
+    "expert-security",
+    "expert-auth",
+    "security-first-pass",
+    "backend-engineering",
+    "adaptive-error-recovery",
+    "semgrep",
+    "sharp-edges",
+    "codeql",
+    "agentic-actions-auditor"
+  ],
+  "domains": ["security-assurance", "identity-access"],
+  "for_roles": ["security-eng", "app-sec", "any"]
+}

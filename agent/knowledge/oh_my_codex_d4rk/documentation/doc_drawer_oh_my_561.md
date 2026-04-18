@@ -1,0 +1,3 @@
+or `failed`.
+- `pending`, `notified`, `delivered`, and `failed` are counts in the runtime snapshot.
+- `DispatchLog` (in `crates/omx-runtime-core/src/dispatch.rs`) tracks individual `DispatchRecord` entries, each carrying `request_id`, `target`, `status`, and timestamps (`created_at`, `notified_at`, `delivered_at`, `failed_at`). Status transitions are enforced — invalid transitions (e.g. `pending -> delivered`) return `DispatchError::InvalidTransition`.

@@ -1,0 +1,57 @@
+{
+  "name": "pi-agent-suite",
+  "version": "1.0.0",
+  "description": "Complete AI agent harness with semantic memory (MemPalace), specialist agent routing, Obsidian vault integration, and adapters for Claude Code, Cursor, Cline, Codex, and more.",
+  "keywords": [
+    "ai-agent",
+    "mempalace",
+    "chromadb",
+    "claude-code",
+    "cursor",
+    "cline",
+    "obsidian",
+    "llm",
+    "memory",
+    "agent-routing",
+    "rag"
+  ],
+  "homepage": "https://github.com/YOUR_ORG/pi-agent-suite",
+  "bugs": {
+    "url": "https://github.com/YOUR_ORG/pi-agent-suite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_ORG/pi-agent-suite.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "pi-agent-suite": "./bin/cli.js"
+  },
+  "scripts": {
+    "install-suite": "node bin/cli.js install",
+    "verify": "node bin/cli.js verify",
+    "postinstall": "node bin/cli.js check-python"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "agent/",
+    "hooks/",
+    "vault-template/",
+    "config/",
+    "installer/",
+    "docs/",
+    "assets/",
+    "bin/",
+    "pi-harness.ps1",
+    "setup-ai-harness.ps1",
+    "README.md",
+    "QUICKSTART.md",
+    "ARCHITECTURE.md",
+    "TROUBLESHOOTING.md",
+    "LICENSE"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

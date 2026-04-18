@@ -1,0 +1,4 @@
+rchy; output/checklist sections normalized. | No intentional functional delta in migration commit. |
+| `prompts/designer.md` | 96 | 98 | XML-like wrapper blocks converted to Markdown section hierarchy; output/checklist sections normalized. | No intentional functional delta in migration commit. |
+| `prompts/executor.md` | 92 | 94 | XML-like wrapper blocks converted to Markdown section hierarchy; output/checklist sections normalized. | No intentional functional delta in migration commit. |
+| `prompts/explore.md` | 104 | 107 | XML-like wrapper blocks converted to Markdown section hierarchy; output/checklist sections normalized. | No intentional functional delta in migration commit. |

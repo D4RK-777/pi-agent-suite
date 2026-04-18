@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "label": "Backend Bundle",
+  "description": "API development, server logic, databases, and backend security.",
+  "skills": [
+    "backend-engineering",
+    "expert-backend",
+    "data-and-persistence",
+    "security-and-auth",
+    "expert-auth",
+    "adaptive-error-recovery",
+    "mempalace-workflow"
+  ],
+  "domains": ["backend-platform", "identity-access"],
+  "for_roles": ["backend-dev", "api-dev", "fullstack"]
+}

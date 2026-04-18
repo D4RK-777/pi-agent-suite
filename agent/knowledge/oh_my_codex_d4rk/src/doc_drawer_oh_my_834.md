@@ -1,0 +1,3 @@
+'cleanup': 'Uses the runtime shutdown contract; use orphan-cleanup only for known orphan recovery.',
+  'orphan-cleanup': 'Destructive escape hatch for known orphan recovery. Bypasses shutdown orchestration.',
+  'read-events': 'Events are returned in canonical form; worker_idle log entries normalize to type worker_state_changed with source_type worker_idle. wakeable_only defaults to false; set wakeable_only=true to mirror omx team await semantics (wakeable events now include merge conflicts and per-signal stale alerts).',

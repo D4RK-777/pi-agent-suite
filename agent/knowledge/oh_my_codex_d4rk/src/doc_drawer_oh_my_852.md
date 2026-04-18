@@ -1,0 +1,11 @@
+ord<string, string | null>;
+  recommended_inspect_approval_required: Record<string, boolean | null>;
+  recommended_inspect_requires_code_change: Record<string, boolean | null>;
+  recommended_inspect_descriptions: Record<string, string | null>;
+  recommended_inspect_blocked_by: Record<string, string[]>;
+  recommended_inspect_task_roles: Record<string, string | null>;
+  recommended_inspect_task_owners: Record<string, string | null>;
+  recommended_inspect_approval_statuses: Record<string, string | null>;
+  recommended_inspect_approval_reviewers: Record<string, string | null>;
+  recommended_inspect_approval_reasons: Record<string, string | null>;
+  recommended_inspect_approval_decided_at: Record<string, string | null>;

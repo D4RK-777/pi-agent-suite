@@ -1,0 +1,11 @@
+rd<string, string | null>;
+  recommended_inspect_worker_status_paths: Record<string, string | null>;
+  recommended_inspect_worker_heartbeat_paths: Record<string, string | null>;
+  recommended_inspect_worker_identity_paths: Record<string, string | null>;
+  recommended_inspect_worker_inbox_paths: Record<string, string | null>;
+  recommended_inspect_worker_mailbox_paths: Record<string, string | null>;
+  recommended_inspect_worker_shutdown_request_paths: Record<string, string | null>;
+  recommended_inspect_worker_shutdown_ack_paths: Record<string, string | null>;
+  recommended_inspect_team_config_paths: Record<string, string | null>;
+  recommended_inspect_team_manifest_paths: Record<string, string | null>;
+  recommended_inspect_team_events_paths: Record<string, string | null>;

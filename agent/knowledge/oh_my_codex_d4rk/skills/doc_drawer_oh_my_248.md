@@ -1,0 +1,4 @@
+improvements (add missing details, refine steps, strengthen acceptance criteria, ADR updates, etc.)
+   d. Note which improvements were applied in a brief changelog section at the end of the plan
+   e. Before any execution handoff, derive an explicit **available-agent-types roster** from the known prompt catalog and add concrete **follow-up staffing guidance** for both `$ralph` and `$team` (recommended roles, counts, suggested reasoning levels by lane, and why each lane exists)
+   f. For the `$team` path, add an explicit launch-hint block with concrete `omx team` / `$team` commands and a **team verification path** (what team proves before shutdown, what Ralph verifies after handoff)

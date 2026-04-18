@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "domains": [
+    {
+      "name": "frontend-experience",
+      "label": "Frontend Experience",
+      "leadAgent": "frontend",
+      "supportAgents": ["reviewer", "tester", "debugger", "creative"],
+      "skills": ["frontend-engineering", "expert-frontend", "frontend-quality", "gsap", "expert-optimization", "adaptive-error-recovery"],
+      "focus": "UI architecture, React and Next.js implementation, styling, motion, accessibility, and frontend performance."
+    },
+    {
+      "name": "backend-platform",
+      "label": "Backend Platform",
+      "leadAgent": "backend",
+      "supportAgents": ["security", "reviewer", "debugger"],
+      "skills": ["backend-engineering", "expert-backend", "data-and-persistence", "security-and-auth", "adaptive-error-recovery"],
+      "focus": "APIs, persistence, validation, middleware, and server execution patterns."
+    },
+    {
+      "name": "security-assurance",
+      "label": "Security Assurance",
+      "leadAgent": "security",
+      "supportAgents": ["backend", "reliability", "reviewer"],
+      "skills": ["security-and-auth", "expert-security", "security-first-pass", "expert-auth"],
+      "focus": "Vulnerability review, safe defaults, abuse-path analysis, and sensitive change review."
+    },
+    {
+      "name": "reliability-operations",
+      "label": "Reliability Operations",
+      "leadAgent": "reliability",
+      "supportAgents": ["backend", "security", "tester", "debugger"],
+      "skills": ["incident-and-recovery", "observability-and-monitoring", "expert-orchestration", "adaptive-error-recovery", "delivery-testing"],
+      "focus": "Operational resilience, monitoring, observability, deployment safety, runtime health, and incident response framing."
+    },
+    {
+      "name": "identity-access",
+      "label": "Identity and Access",
+      "leadAgent": "auth",
+      "supportAgents": ["security", "backend", "reviewer"],
+      "skills": ["security-and-auth", "expert-auth", "backend-engineering"],
+      "focus": "Login flows, OAuth, sessions, permissions, token handling, and route protection."
+    },
+    {
+      "name": "delivery-quality",
+      "label": "Delivery Quality",
+      "leadAgent": "reviewer",
+      "supportAgents": ["tester", "debugger"],
+      "skills": ["delivery-code-review", "delivery-testing", "adaptive-error-recovery"],
+      "focus": "Review quality, test quality, and delivery safety."
+    },
+    {
+      "name": "library-governance",
+      "label": "Library Governance",
+      "leadAgent": "pi",
+      "supportAgents": ["advisor", "researcher"],
+      "skills": ["problem-framing", "adaptive-error-recovery", "delivery-code-review", "findings-synthesis", "recursive-improvement-loop", "mempalace-workflow", "analyze-code"],
+      "focus": "System direction, shared-library ownership, capability hygiene, recursive improvement, and cross-surface consistency."
+    }
+  ]
+}

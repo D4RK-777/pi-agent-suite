@@ -1,0 +1,13 @@
+directory:** `.omx/specs/autoresearch-{slug}/`
+- **Required artifact sections:**
+  - `Mission Draft`
+  - `Evaluator Draft`
+  - `Launch Readiness`
+  - `Seed Inputs`
+  - `Confirmation Bridge`
+- **Required launch artifacts under `.omx/specs/autoresearch-{slug}/`:**
+  - `mission.md`
+  - `sandbox.md`
+  - `result.json`
+- **Launch-readiness rule:** mark the draft as **not launch-ready** while the evaluator command still contains placeholder markers such as `<...>`, `TODO`, `TBD`, `REPLACE_ME`, `CHANGEME`, or `your-command-here`
+- **Structured result contract:** `result.json` should point to the draft + mission/sandbox artifacts and carry the finalized `topic`, `evaluatorCommand`, `keepPolicy`, `slug`, `launchReady`, and `blockedReasons` fields so `omx autoresearch` can consume it directly

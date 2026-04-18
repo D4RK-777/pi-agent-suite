@@ -1,0 +1,3 @@
+continuation checklist + concise output contract | cancel + state lifecycle + runtime/team markers |
+| `templates/AGENTS.md` | Title + opening intro | `<operating_principles>` | same canonical orchestration sections as root | same safety constraints | same verification section | runtime/team overlays added later via markers |
+| `prompts/*.md` canonical role prompt surfaces | role-local identity + remit | role-local operating posture | task execution steps for that specialist | role boundaries / tool rules / handoff limits (report upward, do not recursively orchestrate) | evidence required before role-local completion claims | scenario handling + final checklist |

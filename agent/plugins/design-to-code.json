@@ -1,0 +1,16 @@
+{
+  "name": "design-to-code",
+  "description": "Convert design mockup or description into production-ready code",
+  "trigger": ["design", "mockup", "build from design", "implement design"],
+  "agents": ["frontend", "reviewer"],
+  "skills": {
+    "frontend": ["frontend-engineering", "frontend-quality", "expert-optimization", "gsap"]
+  },
+  "steps": [
+    { "agent": "frontend", "description": "Plan component hierarchy" },
+    { "agent": "frontend", "description": "Build components from atoms to organisms" },
+    { "agent": "frontend", "description": "Add interactions and animations" },
+    { "agent": "reviewer", "description": "Accessibility and quality review" }
+  ],
+  "chain_mode": "sequential"
+}

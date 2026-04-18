@@ -1,0 +1,12 @@
+rd<string, string | null>;
+  recommended_inspect_worktree_repo_roots: Record<string, string | null>;
+  recommended_inspect_worktree_branches: Record<string, string | null>;
+  recommended_inspect_worktree_detached: Record<string, boolean | null>;
+  recommended_inspect_worktree_created: Record<string, boolean | null>;
+  recommended_inspect_team_state_roots: Record<string, string | null>;
+  recommended_inspect_workdirs: Record<string, string | null>;
+  recommended_inspect_assigned_tasks: Record<string, string[]>;
+  recommended_inspect_task_statuses: Record<string, TeamTask['status'] | null>;
+  recommended_inspect_task_results: Record<string, string | null>;
+  recommended_inspect_task_errors: Record<string, string | null>;
+  recommended_inspect_task_versions: Record<string, number | null>;

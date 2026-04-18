@@ -1,0 +1,60 @@
+{
+  "_comment": "Pi Agent Suite — LLM Provider Configuration",
+  "_comment2": "Set MINIMAX_API_KEY in your environment. Never commit your key.",
+
+  "default_provider": "minimax",
+
+  "providers": {
+    "minimax": {
+      "name": "MiniMax",
+      "enabled": true,
+      "api_base": "https://api.minimax.chat/v1",
+      "api_key_env": "MINIMAX_API_KEY",
+      "default_model": "abab6.5s-chat",
+      "models": {
+        "chat": "abab6.5s-chat",
+        "reasoning": "abab6.5-chat",
+        "image_generation": "image-01",
+        "video_generation": "video-01",
+        "tts": "speech-01-hd",
+        "embedding": "embo-01"
+      },
+      "mcp_server": {
+        "package": "@minimax/mcp-server",
+        "env_key": "MINIMAX_API_KEY",
+        "docs": "https://www.minimaxi.com/document/MiniMax-MCP"
+      },
+      "capabilities": ["chat", "image", "video", "audio", "tts", "embedding", "web_search"],
+      "notes": "Full multimodal. MCP server provides 10+ tools. ~4500 calls/5hr on standard plan."
+    },
+
+    "claude": {
+      "name": "Anthropic Claude",
+      "enabled": true,
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "default_model": "claude-sonnet-4-5",
+      "models": {
+        "chat": "claude-sonnet-4-5",
+        "reasoning": "claude-opus-4-5",
+        "fast": "claude-haiku-4-5"
+      },
+      "notes": "Best for coding and long context. Claude Code has native hook + MCP support."
+    },
+
+    "openai": {
+      "name": "OpenAI / Codex",
+      "enabled": false,
+      "api_key_env": "OPENAI_API_KEY",
+      "default_model": "gpt-4o",
+      "notes": "Enable if using OpenAI Codex CLI or GPT-4 API."
+    },
+
+    "gemini": {
+      "name": "Google Gemini",
+      "enabled": false,
+      "api_key_env": "GEMINI_API_KEY",
+      "default_model": "gemini-2.5-pro",
+      "notes": "Enable for Gemini CLI integration."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+t_reasons: Record<string, string>;
+  recommended_inspect_clis: Record<string, TeamWorkerCli | null>;
+  recommended_inspect_roles: Record<string, string | null>;
+  recommended_inspect_indexes: Record<string, number | null>;
+  recommended_inspect_alive: Record<string, boolean | null>;
+  recommended_inspect_turn_counts: Record<string, number | null>;
+  recommended_inspect_turns_without_progress: Record<string, number | null>;
+  recommended_inspect_last_turn_at: Record<string, string | null>;
+  recommended_inspect_status_updated_at: Record<string, string | null>;
+  recommended_inspect_pids: Record<string, number | null>;
+  recommended_inspect_worktree_paths: Record<string, string | null>;
+  recommended_inspect_worktree_repo_roots: Record<string, string | null>;

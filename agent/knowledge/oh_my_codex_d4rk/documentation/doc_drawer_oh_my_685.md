@@ -1,0 +1,4 @@
+.ts` (Ralph phase normalizer), `src/mcp/__tests__/state-server-ralph-phase.test.ts` | adapted | V4 |
+| R3 | Completion is terminal (`active=false`, terminal phase, `completed_at`). | `src/cli/index.ts` (`cancelModes` terminalization), notify/team sync path in `scripts/notify-hook.js` | adopted | V5, V7 |
+| R4 | Cancellation propagates to linked mode state (Ralph ↔ Ultrawork/Ecomode/Team). | `src/cli/index.ts` linked cancel handling, `scripts/notify-hook.js` team→ralph terminal sync | adapted | V6, V7 |
+| R5 | Session scope is authoritative when active session exists. Root is compatibility fallback. | `src/mcp/state-paths.ts`, `src/hud/state.ts`, `src/cli/index.ts` | adopted | V1, V2, V8 |

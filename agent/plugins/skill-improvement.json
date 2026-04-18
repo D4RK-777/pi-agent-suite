@@ -1,0 +1,17 @@
+{
+  "name": "skill-improvement",
+  "description": "Improve existing skills or create new ones based on patterns",
+  "trigger": ["improve skill", "new skill", "skill review", "skill gap"],
+  "agents": ["scout", "reviewer"],
+  "skills": {
+    "scout": ["recursive-improvement-loop", "findings-synthesis", "analyze-code"],
+    "reviewer": ["delivery-code-review", "skill-validator"]
+  },
+  "steps": [
+    { "agent": "scout", "description": "Analyze current skills and identify gaps" },
+    { "agent": "scout", "description": "Research best practices for improvement" },
+    { "agent": "scout", "description": "Draft improved skill content" },
+    { "agent": "reviewer", "description": "Validate new skill structure" }
+  ],
+  "chain_mode": "sequential"
+}

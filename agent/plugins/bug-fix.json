@@ -1,0 +1,18 @@
+{
+  "name": "bug-fix",
+  "description": "Methodical debugging and fixing of broken behavior",
+  "trigger": ["bug", "fix", "broken", "not working", "crash", "error"],
+  "agents": ["debugger", "tester", "reviewer"],
+  "skills": {
+    "debugger": ["adaptive-error-recovery", "expert-optimization"],
+    "tester": ["delivery-testing"],
+    "reviewer": ["delivery-code-review"]
+  },
+  "steps": [
+    { "agent": "debugger", "description": "Diagnose root cause" },
+    { "agent": "debugger", "description": "Implement fix" },
+    { "agent": "tester", "description": "Verify fix with tests" },
+    { "agent": "reviewer", "description": "Code review" }
+  ],
+  "chain_mode": "sequential"
+}

@@ -1,0 +1,100 @@
+{
+  "version": 5,
+  "description": "D4rkMynd Agent System — Simplified: 6 agents + 2 hooks",
+  "agents": [
+    {
+      "name": "director",
+      "function": "director",
+      "aliases": ["d4rkmynd", "D4rkMynd", "mynd", "oversee", "direct", "manager", "orchestrate", "coordinate", "plan"],
+      "domain": "library-governance",
+      "role": "system-overseer",
+      "description": "Top-level brain. Direction, task decomposition, multi-agent coordination, final routing.",
+      "skills": ["problem-framing", "adaptive-error-recovery", "findings-synthesis", "recursive-improvement-loop", "mempalace-workflow"],
+      "status": "active"
+    },
+    {
+      "name": "advisor",
+      "function": "advisor",
+      "aliases": ["advisor", "D4rkClawd", "advice", "help", "second-opinion", "scout", "researcher", "explore", "analyze", "find", "librarian", "D4rkLibrarian", "docs", "documentation", "knowledge", "structure"],
+      "domain": "library-governance",
+      "role": "trusted-assistant",
+      "description": "Trusted operator. Advice, research, doc gathering, knowledge hygiene, risk sniffing.",
+      "skills": ["problem-framing", "adaptive-error-recovery", "delivery-code-review", "findings-synthesis", "recursive-improvement-loop", "skill-validator", "analyze-code", "firecrawl", "mempalace-workflow"],
+      "status": "active"
+    },
+    {
+      "name": "frontend",
+      "function": "frontend",
+      "aliases": ["frontend", "D4rkCy4n", "ui", "react", "nextjs", "web"],
+      "domain": "frontend-experience",
+      "role": "domain-lead",
+      "description": "UI architecture, React, Next.js, components, styling, motion, accessibility.",
+      "skills": ["frontend-engineering", "gsap", "google-stitch", "frontend-quality", "expert-frontend", "adaptive-error-recovery"],
+      "status": "active"
+    },
+    {
+      "name": "backend",
+      "function": "backend",
+      "aliases": ["backend", "D4rkGr33n", "api", "server", "database", "security", "D4rkR3d", "vulnerability", "audit", "vuln", "auth", "D4rkK3y", "login", "oauth", "identity", "jwt", "session", "reliability", "D4rkShi3ld", "ops", "monitoring", "deployment", "devops"],
+      "domain": "backend-platform",
+      "role": "domain-lead",
+      "description": "Server-side: APIs, databases, security, auth, deployment, monitoring, incident response.",
+      "skills": ["backend-engineering", "data-and-persistence", "security-and-auth", "security-first-pass", "expert-security", "expert-auth", "incident-and-recovery", "observability-and-monitoring", "expert-orchestration", "delivery-testing", "adaptive-error-recovery"],
+      "status": "active"
+    },
+    {
+      "name": "reviewer",
+      "function": "reviewer",
+      "aliases": ["reviewer", "D4rkEy3", "review", "pr", "quality", "tester", "D4rkT3st", "test", "qa", "verify", "coverage", "refactorer", "D4rkR3factor", "cleanup", "restructure", "clean"],
+      "domain": "delivery-quality",
+      "role": "workflow-agent",
+      "description": "Quality gate: code review, testing, refactoring, structural cleanup.",
+      "skills": ["delivery-code-review", "delivery-testing", "recursive-improvement-loop", "frontend-engineering", "backend-engineering", "adaptive-error-recovery"],
+      "status": "active"
+    },
+    {
+      "name": "debugger",
+      "function": "debugger",
+      "aliases": ["debugger", "D4rkBug", "debug", "fix", "error", "broken"],
+      "domain": "delivery-quality",
+      "role": "workflow-agent",
+      "description": "Failure isolation, reproducibility, root-cause analysis.",
+      "skills": ["adaptive-error-recovery", "expert-optimization"],
+      "status": "active"
+    },
+    {
+      "name": "librarian",
+      "function": "librarian",
+      "aliases": ["librarian", "D4rkLibrarian", "curator", "memory-keeper"],
+      "domain": "library-governance",
+      "role": "background-agent",
+      "description": "MemPalace curator. Mines sessions into knowledge, curates drawers, removes stale entries, maintains quality.",
+      "skills": ["mempalace-workflow", "recursive-improvement-loop", "findings-synthesis", "analyze-code"],
+      "status": "active",
+      "schedule": "every 2 hours"
+    },
+    {
+      "name": "scout",
+      "function": "scout",
+      "aliases": ["scout", "researcher", "skill-updater", "web-research"],
+      "domain": "library-governance",
+      "role": "background-agent",
+      "description": "Web research agent. Finds latest harness patterns, skill updates, agent architecture trends. Updates skills automatically.",
+      "skills": ["firecrawl", "findings-synthesis", "recursive-improvement-loop", "skill-validator"],
+      "status": "active",
+      "schedule": "every 4 hours"
+    }
+  ],
+  "hooks": {
+    "compliance-watcher": {
+      "description": "Enforces harness compliance on every agent output. NOT an agent — it's a post-action hook.",
+      "triggers": ["PostToolUse"],
+      "enforces": ["harness_compliance", "mempalace_consultation", "context_awareness", "skill_usage"]
+    },
+    "memory-watcher": {
+      "description": "Injects MemPalace context before agents act, verifies usage after. NOT an agent — it's a pre+post hook.",
+      "triggers": ["PreToolUse", "PostToolUse"],
+      "enforces": ["memory_injection", "memory_verification", "chroma_health"]
+    }
+  }
+}

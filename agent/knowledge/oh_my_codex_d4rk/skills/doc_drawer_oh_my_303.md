@@ -1,0 +1,3 @@
+re reached
+   f. If 5 iterations are reached without `APPROVE`, present the best version to the user
+6. On Critic approval *(--interactive only)*: If `--interactive` is set, use `AskUserQuestion` to present the plan with approval options (Approve and execute via ralph / Approve and implement via team / Request changes / Reject). Final plan must include ADR (Decision, Drivers, Alternatives considered, Why chosen, Consequences, Follow-ups), an explicit available-agent-types roster, concrete follow-up staffing guidance for both `ralph` and `team`, suggested reasoning levels by lane, explicit `omx team` / `$team` launch hints, and a concrete **team verification** path. Otherwise, output the final plan and stop.

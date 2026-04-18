@@ -1,0 +1,85 @@
+{
+  "_comment": "Pi Agent Suite — Claude Code settings template.",
+  "_instructions": [
+    "1. Copy this file to ~/.claude/settings.json (or settings.local.json to merge with existing)",
+    "2. Replace all PI_HOME and PALACE placeholders with your actual install paths",
+    "   or run the installer (installer/install.sh) to patch automatically.",
+    "3. Set MINIMAX_API_KEY in your environment (see config/env.template).",
+    "4. Replace OBSIDIAN_API_KEY with your Local REST API key from Obsidian.",
+    "5. Set OBSIDIAN_VAULT_NAME to the name of your vault as it appears in Obsidian."
+  ],
+  "model": "sonnet",
+  "effortLevel": "high",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${PI_HOME}/agent/bin/mempalace_prompt_hook.py",
+            "_note": "On Windows use: python ${PI_HOME}\\agent\\bin\\mempalace_prompt_hook.py",
+            "timeout": 2
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${PI_HOME}/hooks/mempal_save_hook.sh",
+            "_note": "On Windows, Git Bash must be on PATH. Or use WSL.",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${PI_HOME}/hooks/mempal_precompact_hook.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  },
+  "mcpServers": {
+    "mempalace": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "mempalace.mcp_server",
+        "--palace",
+        "${PALACE}"
+      ],
+      "_note": "Exposes 29 mempalace_* tools to Claude Code. Palace path = ~/.mempalace/palace by default."
+    },
+    "minimax": {
+      "command": "npx",
+      "args": ["-y", "@minimax/mcp-server"],
+      "env": {
+        "MINIMAX_API_KEY": "${MINIMAX_API_KEY}",
+        "MINIMAX_MCP_BASE_URL": "https://api.minimax.chat"
+      },
+      "_note": "MiniMax MCP — image gen, video gen, TTS, voice cloning, web search, image understanding. Get key from https://www.minimaxi.com/user-center/basic-information/interface-key"
+    },
+    "obsidian": {
+      "command": "npx",
+      "args": ["-y", "obsidian-mcp-server"],
+      "env": {
+        "OBSIDIAN_API_KEY": "${OBSIDIAN_API_KEY}",
+        "OBSIDIAN_BASE_URL": "https://127.0.0.1:27124",
+        "OBSIDIAN_VERIFY_SSL": "false",
+        "OBSIDIAN_VAULT_NAME": "${OBSIDIAN_VAULT_NAME}"
+      },
+      "_note": "Optional. Requires Obsidian + Local REST API plugin. Remove if not using Obsidian."
+    }
+  }
+}

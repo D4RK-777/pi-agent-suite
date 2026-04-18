@@ -1,0 +1,3 @@
+ate) | evidence required before role-local completion claims | scenario handling + final checklist |
+| Runtime AGENTS overlay block | session context identity | compaction protocol directives | checkpoint flow | overlay marker boundaries and size/lock gates | checkpoint evidence before compaction | runtime apply/strip lifecycle |
+| Team worker overlay block | worker identity + team scope | worker protocol intent | ACK → read task → claim → execute → complete → idle | file ownership + blocked-state rules | write task result + status updates | mailbox polling + shutdown handling |

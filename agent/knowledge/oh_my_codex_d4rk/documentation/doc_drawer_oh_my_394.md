@@ -1,0 +1,4 @@
+to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/release/SKILL.md` | 3 | 3 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/research/SKILL.md` | 10 | 15 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/security-review/SKILL.md` | 1 | 1 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |

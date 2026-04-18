@@ -1,0 +1,155 @@
+{
+  "$schema": "https://pi-agent.dev/schemas/hooks.json",
+  "hooks": {
+    "SessionStart": [
+      {
+        "id": "session:memory:load",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness-hooks/__init__.py\" session_start",
+        "description": "Load previous session context from MemPalace",
+        "async": false,
+        "timeout": 10
+      },
+      {
+        "id": "session:state:load",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/runtime/state_tracker.py\" handoff",
+        "description": "Load task state and handoff from previous session",
+        "async": false,
+        "timeout": 10
+      },
+      {
+        "id": "watcher:memory:health",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness/enforcement.py\" health",
+        "description": "Check ChromaDB/MemPalace health on session start",
+        "async": true,
+        "timeout": 10
+      }
+    ],
+    "PreToolUse": [
+      {
+        "id": "harness:route:before:act",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness/orchestrator.py\" route \"${USER_INPUT}\"",
+        "description": "Force harness routing before any agent action",
+        "async": false,
+        "timeout": 15
+      },
+      {
+        "id": "watcher:memory:inject",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness/enforcement.py\" memory \"${AGENT_NAME}\" \"${USER_INPUT}\"",
+        "description": "Memory watcher injects MemPalace context before agent acts",
+        "async": false,
+        "timeout": 15
+      }
+    ],
+    "PostToolUse": [
+      {
+        "id": "quality:gate:edit",
+        "matcher": "Edit|Write",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness/enforcement.py\" check \"${AGENT_NAME}\"",
+        "description": "Run quality gate after file edits",
+        "async": true,
+        "timeout": 30
+      },
+      {
+        "id": "watcher:compliance:check",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness/enforcement.py\" compliance \"${AGENT_NAME}\" \"${AGENT_OUTPUT}\"",
+        "description": "Compliance watcher checks harness compliance + MemPalace usage",
+        "async": true,
+        "timeout": 30
+      },
+      {
+        "id": "feedback:lint",
+        "matcher": "Edit|Write",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/runtime/feedback_hooks.py\" lint",
+        "description": "Run linter after code edits (fast feedback)",
+        "async": true,
+        "timeout": 30
+      },
+      {
+        "id": "feedback:test",
+        "matcher": "Edit|Write",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/runtime/feedback_hooks.py\" test",
+        "description": "Run tests after code edits (fast feedback)",
+        "async": true,
+        "timeout": 60
+      }
+    ],
+    "Stop": [
+      {
+        "id": "session:memory:save",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness-hooks/__init__.py\" session_end",
+        "description": "Save session learnings to MemPalace",
+        "async": true,
+        "timeout": 30
+      },
+      {
+        "id": "session:state:save",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/runtime/state_tracker.py\" handoff",
+        "description": "Save session handoff for next session",
+        "async": false,
+        "timeout": 10
+      },
+      {
+        "id": "pattern:extract",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness-hooks/__init__.py\" extract_patterns",
+        "description": "Extract reusable patterns from session",
+        "async": true,
+        "timeout": 30
+      },
+      {
+        "id": "watcher:repeat:offenders",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness/enforcement.py\" repeat-offenders",
+        "description": "Check for repeat offenders at session end",
+        "async": true,
+        "timeout": 10
+      }
+    ],
+    "PreCompact": [
+      {
+        "id": "session:memory:precompact",
+        "matcher": "*",
+        "type": "command",
+        "command": "python \"${PI_ROOT}/agent/harness-hooks/__init__.py\" precompact",
+        "description": "Save state before context compaction",
+        "async": false,
+        "timeout": 10
+      }
+    ]
+  },
+  "settings": {
+    "ECC_HOOK_PROFILE": "standard",
+    "PI_HOOK_ENABLED": true,
+    "PI_HOOK_SESSION_MEMORY": true,
+    "PI_HOOK_PATTERN_EXTRACTION": true,
+    "PI_HOOK_QUALITY_GATE": true,
+    "PI_HOOK_WATCHER_COMPLIANCE": true,
+    "PI_HOOK_WATCHER_MEMORY": true,
+    "PI_HOOK_PRE_ROUTE": true,
+    "PI_HOOK_FEEDBACK_LINT": true,
+    "PI_HOOK_FEEDBACK_TEST": true,
+    "PI_HOOK_STATE_TRACKING": true,
+    "PI_HOOK_HANDOFF": true
+  }
+}

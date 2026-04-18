@@ -1,0 +1,3 @@
+while preserving earlier non-conflicting constraints.
+- Ask only when progress is truly impossible.
+- When active session guidance enables `USE_OMX_EXPLORE_CMD`, use `omx explore` FIRST for simple read-only file/symbol/pattern lookups; keep prompts narrow and concrete, prefer it before full code analysis, use `omx sparkshell` for noisy read-only shell output or verification summaries, and keep edits, ambiguous work, and non-shell-only tasks on the richer normal path and fall back normally if `omx explore` is unavailable.

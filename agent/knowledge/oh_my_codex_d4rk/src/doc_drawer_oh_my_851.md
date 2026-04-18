@@ -1,0 +1,11 @@
+: Record<string, string | null>;
+  recommended_inspect_task_versions: Record<string, number | null>;
+  recommended_inspect_task_created_at: Record<string, string | null>;
+  recommended_inspect_task_completed_at: Record<string, string | null>;
+  recommended_inspect_task_depends_on: Record<string, string[]>;
+  recommended_inspect_task_claim_present: Record<string, boolean | null>;
+  recommended_inspect_task_claim_owners: Record<string, string | null>;
+  recommended_inspect_task_claim_tokens: Record<string, string | null>;
+  recommended_inspect_task_claim_leases: Record<string, string | null>;
+  recommended_inspect_task_claim_lock_paths: Record<string, string | null>;
+  recommended_inspect_approval_required: Record<string, boolean | null>;

@@ -1,0 +1,14 @@
+{
+  "name": "testing",
+  "label": "Testing Bundle",
+  "description": "Test strategy, verification, QA, and release confidence.",
+  "skills": [
+    "delivery-testing",
+    "delivery-code-review",
+    "adaptive-error-recovery",
+    "frontend-quality",
+    "security-first-pass"
+  ],
+  "domains": ["delivery-quality"],
+  "for_roles": ["qa-eng", "tester", "fullstack"]
+}

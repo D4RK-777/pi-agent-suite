@@ -1,0 +1,11 @@
+OME/AGENTS.md` s'il est redéfini) avec `./AGENTS.md` du projet, puis ajoutent l'overlay d'exécution.
+- Les fichiers `AGENTS.md` existants ne sont jamais écrasés silencieusement : en TTY interactif, setup demande avant de remplacer ; en non-interactif, le remplacement est ignoré sauf avec `--force` (les vérifications de sécurité de session active s'appliquent toujours).
+- Mises à jour de `config.toml` (pour les deux scopes) :
+  - `notify = ["node", "..."]`
+  - `model_reasoning_effort = "high"`
+  - `developer_instructions = "..."`
+  - `[features] multi_agent = true, child_agents_md = true`
+  - Entrées de serveurs MCP (`omx_state`, `omx_memory`, `omx_code_intel`, `omx_trace`)
+  - `[tui] status_line`
+- `AGENTS.md` spécifique au scope
+- Répertoires d'exécution `.omx/` et configuration HUD

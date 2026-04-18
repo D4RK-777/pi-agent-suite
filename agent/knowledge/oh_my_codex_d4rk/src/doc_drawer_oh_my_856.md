@@ -1,0 +1,24 @@
+nspect_items: Array<{
+    target: string;
+    pane_id: string;
+    worker_cli: TeamWorkerCli | null;
+    role: string | null;
+    index: number | null;
+    alive: boolean | null;
+    turn_count: number | null;
+    turns_without_progress: number | null;
+    last_turn_at: string | null;
+    status_updated_at: string | null;
+    pid: number | null;
+    worktree_repo_root: string | null;
+    worktree_path: string | null;
+    worktree_branch: string | null;
+    worktree_detached: boolean | null;
+    worktree_created: boolean | null;
+    team_state_root: string | null;
+    working_dir: string | null;
+    assigned_tasks: string[];
+    task_status: TeamTask['status'] | null;
+    task_result: string | null;
+    task_error: string | null;
+    task_version: number | null;

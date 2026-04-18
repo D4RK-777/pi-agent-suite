@@ -1,0 +1,18 @@
+{
+  "name": "essentials",
+  "label": "Essentials Bundle",
+  "description": "Core skills every Pi user needs. Covers debugging, testing, security basics, and quality gates.",
+  "skills": [
+    "adaptive-error-recovery",
+    "recursive-improvement-loop",
+    "mempalace-workflow",
+    "problem-framing",
+    "findings-synthesis",
+    "delivery-code-review",
+    "delivery-testing",
+    "security-first-pass",
+    "analyze-code"
+  ],
+  "domains": ["delivery-quality", "library-governance"],
+  "for_roles": ["generalist", "fullstack", "any"]
+}

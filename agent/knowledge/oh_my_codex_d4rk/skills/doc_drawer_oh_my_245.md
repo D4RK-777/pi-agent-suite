@@ -1,0 +1,4 @@
+*Wait for this step to complete before proceeding to step 4.** Do NOT run steps 3 and 4 in parallel.
+4. **Critic** evaluates against quality criteria using `ask_codex` with `agent_role: "critic"`. Critic **MUST** verify principle-option consistency, fair alternative exploration, risk mitigation clarity, testable acceptance criteria, and concrete verification steps. Critic **MUST** explicitly reject shallow alternatives, driver contradictions, vague risks, or weak verification. In deliberate mode, Critic **MUST** reject missing/weak pre-mortem or missing/weak expanded test plan. Run only after step 3 is complete.
+5. **Re-review loop** (max 5 iterations): If Critic rejects or iterates, execute this closed loop:
+   a. Collect all feedback from Architect + Critic

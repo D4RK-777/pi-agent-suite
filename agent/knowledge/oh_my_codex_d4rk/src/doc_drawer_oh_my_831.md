@@ -1,0 +1,12 @@
+ead-idle-state': ['team_name'],
+  'read-stall-state': ['team_name'],
+  'get-summary': ['team_name'],
+  'cleanup': ['team_name'],
+  'orphan-cleanup': ['team_name'],
+  'write-shutdown-request': ['team_name', 'worker', 'requested_by'],
+  'read-shutdown-ack': ['team_name', 'worker'],
+  'read-monitor-snapshot': ['team_name'],
+  'write-monitor-snapshot': ['team_name', 'snapshot'],
+  'read-task-approval': ['team_name', 'task_id'],
+  'write-task-approval': ['team_name', 'task_id', 'status', 'reviewer', 'decision_reason'],
+};

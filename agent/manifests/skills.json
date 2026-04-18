@@ -1,0 +1,5940 @@
+{
+  "version": 2,
+  "sourceRoot": "${PI_AGENT_HOME}/agent",
+  "skills": [
+    {
+      "name": "00-andruia-consultant",
+      "path": "skills/00-andruia-consultant",
+      "entry": "skills/00-andruia-consultant/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "10-andruia-skill-smith",
+      "path": "skills/10-andruia-skill-smith",
+      "entry": "skills/10-andruia-skill-smith/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "20-andruia-niche-intelligence",
+      "path": "skills/20-andruia-niche-intelligence",
+      "entry": "skills/20-andruia-niche-intelligence/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "acceptance-orchestrator",
+      "path": "skills/acceptance-orchestrator",
+      "entry": "skills/acceptance-orchestrator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "accessibility-compliance-accessibility-audit",
+      "path": "skills/accessibility-compliance-accessibility-audit",
+      "entry": "skills/accessibility-compliance-accessibility-audit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "adaptive-error-recovery",
+      "path": "skills/adaptive-error-recovery",
+      "entry": "skills/adaptive-error-recovery/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "error recovery, try again, still broken, same error, stuck, repeated failure"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "adhx",
+      "path": "skills/adhx",
+      "entry": "skills/adhx/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "advanced-evaluation",
+      "path": "skills/advanced-evaluation",
+      "entry": "skills/advanced-evaluation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "advogado-criminal",
+      "path": "skills/advogado-criminal",
+      "entry": "skills/advogado-criminal/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "advogado-especialista",
+      "path": "skills/advogado-especialista",
+      "entry": "skills/advogado-especialista/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "aegisops-ai",
+      "path": "skills/aegisops-ai",
+      "entry": "skills/aegisops-ai/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "agent-evaluation",
+      "path": "skills/agent-evaluation",
+      "entry": "skills/agent-evaluation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "agent-memory-systems",
+      "path": "skills/agent-memory-systems",
+      "entry": "skills/agent-memory-systems/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "agent-orchestrator",
+      "path": "skills/agent-orchestrator",
+      "entry": "skills/agent-orchestrator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "agentflow",
+      "path": "skills/agentflow",
+      "entry": "skills/agentflow/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "agentfolio",
+      "path": "skills/agentfolio",
+      "entry": "skills/agentfolio/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "agentic-actions-auditor",
+      "path": "skills/agentic-actions-auditor",
+      "entry": "skills/agentic-actions-auditor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "agentmail",
+      "path": "skills/agentmail",
+      "entry": "skills/agentmail/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "agents-cli",
+      "path": "skills/agents-cli",
+      "entry": "skills/agents-cli/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ai-agent-development",
+      "path": "skills/ai-agent-development",
+      "entry": "skills/ai-agent-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ai-md",
+      "path": "skills/ai-md",
+      "entry": "skills/ai-md/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ai-ml",
+      "path": "skills/ai-ml",
+      "entry": "skills/ai-ml/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ai-native-cli",
+      "path": "skills/ai-native-cli",
+      "entry": "skills/ai-native-cli/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ai-product",
+      "path": "skills/ai-product",
+      "entry": "skills/ai-product/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ai-studio-image",
+      "path": "skills/ai-studio-image",
+      "entry": "skills/ai-studio-image/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "airflow-dag-patterns",
+      "path": "skills/airflow-dag-patterns",
+      "entry": "skills/airflow-dag-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "akf-trust-metadata",
+      "path": "skills/akf-trust-metadata",
+      "entry": "skills/akf-trust-metadata/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "amazon-alexa",
+      "path": "skills/amazon-alexa",
+      "entry": "skills/amazon-alexa/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "analyze-code",
+      "path": "skills/analyze-code",
+      "entry": "skills/analyze-code/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "andrej-karpathy",
+      "path": "skills/andrej-karpathy",
+      "entry": "skills/andrej-karpathy/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "android-jetpack-compose-expert",
+      "path": "skills/android-jetpack-compose-expert",
+      "entry": "skills/android-jetpack-compose-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "android_ui_verification",
+      "path": "skills/android_ui_verification",
+      "entry": "skills/android_ui_verification/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "angular",
+      "path": "skills/angular",
+      "entry": "skills/angular/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "angular-best-practices",
+      "path": "skills/angular-best-practices",
+      "entry": "skills/angular-best-practices/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "angular-state-management",
+      "path": "skills/angular-state-management",
+      "entry": "skills/angular-state-management/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "angular-ui-patterns",
+      "path": "skills/angular-ui-patterns",
+      "entry": "skills/angular-ui-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "animejs-animation",
+      "path": "skills/animejs-animation",
+      "entry": "skills/animejs-animation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "antigravity-design-expert",
+      "path": "skills/antigravity-design-expert",
+      "entry": "skills/antigravity-design-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "antigravity-skill-orchestrator",
+      "path": "skills/antigravity-skill-orchestrator",
+      "entry": "skills/antigravity-skill-orchestrator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "api-design-principles",
+      "path": "skills/api-design-principles",
+      "entry": "skills/api-design-principles/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "api-documentation",
+      "path": "skills/api-documentation",
+      "entry": "skills/api-documentation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "api-endpoint-builder",
+      "path": "skills/api-endpoint-builder",
+      "entry": "skills/api-endpoint-builder/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform",
+        "security-assurance",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "api-security-testing",
+      "path": "skills/api-security-testing",
+      "entry": "skills/api-security-testing/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "security-assurance",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "app-store-changelog",
+      "path": "skills/app-store-changelog",
+      "entry": "skills/app-store-changelog/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "appdeploy",
+      "path": "skills/appdeploy",
+      "entry": "skills/appdeploy/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "architecture",
+      "path": "skills/architecture",
+      "entry": "skills/architecture/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ascii-animator",
+      "path": "skills/ascii-animator",
+      "entry": "skills/ascii-animator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "astro",
+      "path": "skills/astro",
+      "entry": "skills/astro/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "async-python-patterns",
+      "path": "skills/async-python-patterns",
+      "entry": "skills/async-python-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "audio-transcriber",
+      "path": "skills/audio-transcriber",
+      "entry": "skills/audio-transcriber/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "audit-skills",
+      "path": "skills/audit-skills",
+      "entry": "skills/audit-skills/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "avalonia-zafiro-development",
+      "path": "skills/avalonia-zafiro-development",
+      "entry": "skills/avalonia-zafiro-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "awareness-stage-mapper",
+      "path": "skills/awareness-stage-mapper",
+      "entry": "skills/awareness-stage-mapper/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "aws-cost-cleanup",
+      "path": "skills/aws-cost-cleanup",
+      "entry": "skills/aws-cost-cleanup/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "aws-cost-optimizer",
+      "path": "skills/aws-cost-optimizer",
+      "entry": "skills/aws-cost-optimizer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "aws-skills",
+      "path": "skills/aws-skills",
+      "entry": "skills/aws-skills/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "azure-communication-callingserver-java",
+      "path": "skills/azure-communication-callingserver-java",
+      "entry": "skills/azure-communication-callingserver-java/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "azure-communication-sms-java",
+      "path": "skills/azure-communication-sms-java",
+      "entry": "skills/azure-communication-sms-java/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "azure-monitor-query-java",
+      "path": "skills/azure-monitor-query-java",
+      "entry": "skills/azure-monitor-query-java/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "backend-engineering",
+      "path": "skills/backend-engineering",
+      "entry": "skills/backend-engineering/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "backend, API, server, middleware"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "backtesting-frameworks",
+      "path": "skills/backtesting-frameworks",
+      "entry": "skills/backtesting-frameworks/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "bash-defensive-patterns",
+      "path": "skills/bash-defensive-patterns",
+      "entry": "skills/bash-defensive-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "bash-scripting",
+      "path": "skills/bash-scripting",
+      "entry": "skills/bash-scripting/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "bdistill-behavioral-xray",
+      "path": "skills/bdistill-behavioral-xray",
+      "entry": "skills/bdistill-behavioral-xray/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "bdistill-knowledge-extraction",
+      "path": "skills/bdistill-knowledge-extraction",
+      "entry": "skills/bdistill-knowledge-extraction/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "bevy-ecs-expert",
+      "path": "skills/bevy-ecs-expert",
+      "entry": "skills/bevy-ecs-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "bill-gates",
+      "path": "skills/bill-gates",
+      "entry": "skills/bill-gates/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "billing-automation",
+      "path": "skills/billing-automation",
+      "entry": "skills/billing-automation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "blueprint",
+      "path": "skills/blueprint",
+      "entry": "skills/blueprint/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "brand-perception-psychologist",
+      "path": "skills/brand-perception-psychologist",
+      "entry": "skills/brand-perception-psychologist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "browser",
+      "path": "skills/browser",
+      "entry": "skills/browser/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "bug-hunter",
+      "path": "skills/bug-hunter",
+      "entry": "skills/bug-hunter/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "busybox-on-windows",
+      "path": "skills/busybox-on-windows",
+      "entry": "skills/busybox-on-windows/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "carrier-relationship-management",
+      "path": "skills/carrier-relationship-management",
+      "entry": "skills/carrier-relationship-management/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "chrome-extension-developer",
+      "path": "skills/chrome-extension-developer",
+      "entry": "skills/chrome-extension-developer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "clarvia-aeo-check",
+      "path": "skills/clarvia-aeo-check",
+      "entry": "skills/clarvia-aeo-check/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "claude-ally-health",
+      "path": "skills/claude-ally-health",
+      "entry": "skills/claude-ally-health/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "claude-monitor",
+      "path": "skills/claude-monitor",
+      "entry": "skills/claude-monitor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "claude-scientific-skills",
+      "path": "skills/claude-scientific-skills",
+      "entry": "skills/claude-scientific-skills/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "claude-speed-reader",
+      "path": "skills/claude-speed-reader",
+      "entry": "skills/claude-speed-reader/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "claude-win11-speckit-update-skill",
+      "path": "skills/claude-win11-speckit-update-skill",
+      "entry": "skills/claude-win11-speckit-update-skill/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "clean-code",
+      "path": "skills/clean-code",
+      "entry": "skills/clean-code/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "clerk-auth",
+      "path": "skills/clerk-auth",
+      "entry": "skills/clerk-auth/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "closed-loop-delivery",
+      "path": "skills/closed-loop-delivery",
+      "entry": "skills/closed-loop-delivery/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "cloud-devops",
+      "path": "skills/cloud-devops",
+      "entry": "skills/cloud-devops/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "cloudflare-workers-expert",
+      "path": "skills/cloudflare-workers-expert",
+      "entry": "skills/cloudflare-workers-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "code-documentation-code-explain",
+      "path": "skills/code-documentation-code-explain",
+      "entry": "skills/code-documentation-code-explain/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "code-documentation-doc-generate",
+      "path": "skills/code-documentation-doc-generate",
+      "entry": "skills/code-documentation-doc-generate/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "code-review-excellence",
+      "path": "skills/code-review-excellence",
+      "entry": "skills/code-review-excellence/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "codebase-audit-pre-push",
+      "path": "skills/codebase-audit-pre-push",
+      "entry": "skills/codebase-audit-pre-push/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "codebase-cleanup-refactor-clean",
+      "path": "skills/codebase-cleanup-refactor-clean",
+      "entry": "skills/codebase-cleanup-refactor-clean/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "comfyui-gateway",
+      "path": "skills/comfyui-gateway",
+      "entry": "skills/comfyui-gateway/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "competitive-landscape",
+      "path": "skills/competitive-landscape",
+      "entry": "skills/competitive-landscape/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "conductor-validator",
+      "path": "skills/conductor-validator",
+      "entry": "skills/conductor-validator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "context-agent",
+      "path": "skills/context-agent",
+      "entry": "skills/context-agent/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "context-guardian",
+      "path": "skills/context-guardian",
+      "entry": "skills/context-guardian/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "convex",
+      "path": "skills/convex",
+      "entry": "skills/convex/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "reliability-operations",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "copywriting-psychologist",
+      "path": "skills/copywriting-psychologist",
+      "entry": "skills/copywriting-psychologist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "create-issue-gate",
+      "path": "skills/create-issue-gate",
+      "entry": "skills/create-issue-gate/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "crypto-bd-agent",
+      "path": "skills/crypto-bd-agent",
+      "entry": "skills/crypto-bd-agent/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "customer-psychographic-profiler",
+      "path": "skills/customer-psychographic-profiler",
+      "entry": "skills/customer-psychographic-profiler/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "customs-trade-compliance",
+      "path": "skills/customs-trade-compliance",
+      "entry": "skills/customs-trade-compliance/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "daily",
+      "path": "skills/daily",
+      "entry": "skills/daily/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "data-and-persistence",
+      "path": "skills/data-and-persistence",
+      "entry": "skills/data-and-persistence/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "database, schema, migration"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "data-storytelling",
+      "path": "skills/data-storytelling",
+      "entry": "skills/data-storytelling/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "data-structure-protocol",
+      "path": "skills/data-structure-protocol",
+      "entry": "skills/data-structure-protocol/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "database",
+      "path": "skills/database",
+      "entry": "skills/database/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "database-cloud-optimization-cost-optimize",
+      "path": "skills/database-cloud-optimization-cost-optimize",
+      "entry": "skills/database-cloud-optimization-cost-optimize/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "database-design",
+      "path": "skills/database-design",
+      "entry": "skills/database-design/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "dbos-golang",
+      "path": "skills/dbos-golang",
+      "entry": "skills/dbos-golang/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "dbos-python",
+      "path": "skills/dbos-python",
+      "entry": "skills/dbos-python/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "dbos-typescript",
+      "path": "skills/dbos-typescript",
+      "entry": "skills/dbos-typescript/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ddd-context-mapping",
+      "path": "skills/ddd-context-mapping",
+      "entry": "skills/ddd-context-mapping/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ddd-strategic-design",
+      "path": "skills/ddd-strategic-design",
+      "entry": "skills/ddd-strategic-design/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ddd-tactical-patterns",
+      "path": "skills/ddd-tactical-patterns",
+      "entry": "skills/ddd-tactical-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "debugger",
+      "path": "skills/debugger",
+      "entry": "skills/debugger/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "debugging-strategies",
+      "path": "skills/debugging-strategies",
+      "entry": "skills/debugging-strategies/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "deep-research",
+      "path": "skills/deep-research",
+      "entry": "skills/deep-research/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "delivery-code-review",
+      "path": "skills/delivery-code-review",
+      "entry": "skills/delivery-code-review/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "review, code review, merge-ready"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "delivery-testing",
+      "path": "skills/delivery-testing",
+      "entry": "skills/delivery-testing/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "test, verify, coverage"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "design-md",
+      "path": "skills/design-md",
+      "entry": "skills/design-md/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "design-spells",
+      "path": "skills/design-spells",
+      "entry": "skills/design-spells/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "devcontainer-setup",
+      "path": "skills/devcontainer-setup",
+      "entry": "skills/devcontainer-setup/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "development",
+      "path": "skills/development",
+      "entry": "skills/development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "diary",
+      "path": "skills/diary",
+      "entry": "skills/diary/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "documentation",
+      "path": "skills/documentation",
+      "entry": "skills/documentation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "documentation-generation-doc-generate",
+      "path": "skills/documentation-generation-doc-generate",
+      "entry": "skills/documentation-generation-doc-generate/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "documentation-templates",
+      "path": "skills/documentation-templates",
+      "entry": "skills/documentation-templates/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "domain-driven-design",
+      "path": "skills/domain-driven-design",
+      "entry": "skills/domain-driven-design/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "dotnet-backend",
+      "path": "skills/dotnet-backend",
+      "entry": "skills/dotnet-backend/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "dotnet-backend-patterns",
+      "path": "skills/dotnet-backend-patterns",
+      "entry": "skills/dotnet-backend-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "drizzle-orm-expert",
+      "path": "skills/drizzle-orm-expert",
+      "entry": "skills/drizzle-orm-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "e2e-testing",
+      "path": "skills/e2e-testing",
+      "entry": "skills/e2e-testing/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "e2e-testing-patterns",
+      "path": "skills/e2e-testing-patterns",
+      "entry": "skills/e2e-testing-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "earllm-build",
+      "path": "skills/earllm-build",
+      "entry": "skills/earllm-build/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "electron-development",
+      "path": "skills/electron-development",
+      "entry": "skills/electron-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "elon-musk",
+      "path": "skills/elon-musk",
+      "entry": "skills/elon-musk/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "emotional-arc-designer",
+      "path": "skills/emotional-arc-designer",
+      "entry": "skills/emotional-arc-designer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "employment-contract-templates",
+      "path": "skills/employment-contract-templates",
+      "entry": "skills/employment-contract-templates/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "energy-procurement",
+      "path": "skills/energy-procurement",
+      "entry": "skills/energy-procurement/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "error-debugging-error-analysis",
+      "path": "skills/error-debugging-error-analysis",
+      "entry": "skills/error-debugging-error-analysis/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "error-debugging-error-trace",
+      "path": "skills/error-debugging-error-trace",
+      "entry": "skills/error-debugging-error-trace/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "error-detective",
+      "path": "skills/error-detective",
+      "entry": "skills/error-detective/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "error-diagnostics-error-analysis",
+      "path": "skills/error-diagnostics-error-analysis",
+      "entry": "skills/error-diagnostics-error-analysis/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "error-diagnostics-error-trace",
+      "path": "skills/error-diagnostics-error-trace",
+      "entry": "skills/error-diagnostics-error-trace/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "error-handling-patterns",
+      "path": "skills/error-handling-patterns",
+      "entry": "skills/error-handling-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "evaluation",
+      "path": "skills/evaluation",
+      "entry": "skills/evaluation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "expert-auth",
+      "path": "skills/expert-auth",
+      "entry": "skills/expert-auth/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "expert-backend",
+      "path": "skills/expert-backend",
+      "entry": "skills/expert-backend/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "expert-frontend",
+      "path": "skills/expert-frontend",
+      "entry": "skills/expert-frontend/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "expert-optimization",
+      "path": "skills/expert-optimization",
+      "entry": "skills/expert-optimization/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "expert-orchestration",
+      "path": "skills/expert-orchestration",
+      "entry": "skills/expert-orchestration/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "expert-security",
+      "path": "skills/expert-security",
+      "entry": "skills/expert-security/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "explain-like-socrates",
+      "path": "skills/explain-like-socrates",
+      "entry": "skills/explain-like-socrates/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "expo-deployment",
+      "path": "skills/expo-deployment",
+      "entry": "skills/expo-deployment/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "faf-expert",
+      "path": "skills/faf-expert",
+      "entry": "skills/faf-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "faf-wizard",
+      "path": "skills/faf-wizard",
+      "entry": "skills/faf-wizard/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fal-audio",
+      "path": "skills/fal-audio",
+      "entry": "skills/fal-audio/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fal-generate",
+      "path": "skills/fal-generate",
+      "entry": "skills/fal-generate/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fal-image-edit",
+      "path": "skills/fal-image-edit",
+      "entry": "skills/fal-image-edit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fal-platform",
+      "path": "skills/fal-platform",
+      "entry": "skills/fal-platform/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fal-upscale",
+      "path": "skills/fal-upscale",
+      "entry": "skills/fal-upscale/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fal-workflow",
+      "path": "skills/fal-workflow",
+      "entry": "skills/fal-workflow/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fda-food-safety-auditor",
+      "path": "skills/fda-food-safety-auditor",
+      "entry": "skills/fda-food-safety-auditor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ffuf-claude-skill",
+      "path": "skills/ffuf-claude-skill",
+      "entry": "skills/ffuf-claude-skill/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "figma-automation",
+      "path": "skills/figma-automation",
+      "entry": "skills/figma-automation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "findings-synthesis",
+      "path": "skills/findings-synthesis",
+      "entry": "skills/findings-synthesis/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "synthesis, reports, swarm output, prioritization"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "firecrawl",
+      "path": "skills/firecrawl",
+      "entry": "skills/firecrawl/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "firecrawl-agent",
+      "path": "skills/firecrawl-agent",
+      "entry": "skills/firecrawl-agent/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "firecrawl-browser",
+      "path": "skills/firecrawl-browser",
+      "entry": "skills/firecrawl-browser/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "firecrawl-crawl",
+      "path": "skills/firecrawl-crawl",
+      "entry": "skills/firecrawl-crawl/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "firecrawl-download",
+      "path": "skills/firecrawl-download",
+      "entry": "skills/firecrawl-download/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "firecrawl-map",
+      "path": "skills/firecrawl-map",
+      "entry": "skills/firecrawl-map/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "firecrawl-scrape",
+      "path": "skills/firecrawl-scrape",
+      "entry": "skills/firecrawl-scrape/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "firecrawl-search",
+      "path": "skills/firecrawl-search",
+      "entry": "skills/firecrawl-search/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fix-review",
+      "path": "skills/fix-review",
+      "entry": "skills/fix-review/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fixing-metadata",
+      "path": "skills/fixing-metadata",
+      "entry": "skills/fixing-metadata/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fixing-motion-performance",
+      "path": "skills/fixing-motion-performance",
+      "entry": "skills/fixing-motion-performance/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fp-ts-errors",
+      "path": "skills/fp-ts-errors",
+      "entry": "skills/fp-ts-errors/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fp-ts-pragmatic",
+      "path": "skills/fp-ts-pragmatic",
+      "entry": "skills/fp-ts-pragmatic/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fp-ts-react",
+      "path": "skills/fp-ts-react",
+      "entry": "skills/fp-ts-react/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "fp-types-ref",
+      "path": "skills/fp-types-ref",
+      "entry": "skills/fp-types-ref/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "framework-migration-code-migrate",
+      "path": "skills/framework-migration-code-migrate",
+      "entry": "skills/framework-migration-code-migrate/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "frontend-engineering",
+      "path": "skills/frontend-engineering",
+      "entry": "skills/frontend-engineering/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "frontend, component, React, Next.js"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "frontend-quality",
+      "path": "skills/frontend-quality",
+      "entry": "skills/frontend-quality/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "frontend quality, accessibility, performance"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "frontend-slides",
+      "path": "skills/frontend-slides",
+      "entry": "skills/frontend-slides/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "gdpr-data-handling",
+      "path": "skills/gdpr-data-handling",
+      "entry": "skills/gdpr-data-handling/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "gemini-api-integration",
+      "path": "skills/gemini-api-integration",
+      "entry": "skills/gemini-api-integration/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "geoffrey-hinton",
+      "path": "skills/geoffrey-hinton",
+      "entry": "skills/geoffrey-hinton/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "gh-review-requests",
+      "path": "skills/gh-review-requests",
+      "entry": "skills/gh-review-requests/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "gha-security-review",
+      "path": "skills/gha-security-review",
+      "entry": "skills/gha-security-review/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "git-hooks-automation",
+      "path": "skills/git-hooks-automation",
+      "entry": "skills/git-hooks-automation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "github",
+      "path": "skills/github",
+      "entry": "skills/github/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "global-chat-agent-discovery",
+      "path": "skills/global-chat-agent-discovery",
+      "entry": "skills/global-chat-agent-discovery/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "go-concurrency-patterns",
+      "path": "skills/go-concurrency-patterns",
+      "entry": "skills/go-concurrency-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "go-playwright",
+      "path": "skills/go-playwright",
+      "entry": "skills/go-playwright/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "go-rod-master",
+      "path": "skills/go-rod-master",
+      "entry": "skills/go-rod-master/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "godot-4-migration",
+      "path": "skills/godot-4-migration",
+      "entry": "skills/godot-4-migration/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "godot-gdscript-patterns",
+      "path": "skills/godot-gdscript-patterns",
+      "entry": "skills/godot-gdscript-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "graphql",
+      "path": "skills/graphql",
+      "entry": "skills/graphql/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "grpc-golang",
+      "path": "skills/grpc-golang",
+      "entry": "skills/grpc-golang/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "gsap",
+      "path": "skills/gsap",
+      "entry": "skills/gsap/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "gsap, ScrollTrigger, timeline, motion"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "haskell-pro",
+      "path": "skills/haskell-pro",
+      "entry": "skills/haskell-pro/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "headline-psychologist",
+      "path": "skills/headline-psychologist",
+      "entry": "skills/headline-psychologist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "hierarchical-agent-memory",
+      "path": "skills/hierarchical-agent-memory",
+      "entry": "skills/hierarchical-agent-memory/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "hig-components-search",
+      "path": "skills/hig-components-search",
+      "entry": "skills/hig-components-search/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "hig-technologies",
+      "path": "skills/hig-technologies",
+      "entry": "skills/hig-technologies/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "higgsfield",
+      "path": "skills/higgsfield",
+      "entry": "skills/higgsfield/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "hono",
+      "path": "skills/hono",
+      "entry": "skills/hono/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "humanize-chinese",
+      "path": "skills/humanize-chinese",
+      "entry": "skills/humanize-chinese/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "hybrid-cloud-networking",
+      "path": "skills/hybrid-cloud-networking",
+      "entry": "skills/hybrid-cloud-networking/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "hybrid-search-implementation",
+      "path": "skills/hybrid-search-implementation",
+      "entry": "skills/hybrid-search-implementation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "i18n-localization",
+      "path": "skills/i18n-localization",
+      "entry": "skills/i18n-localization/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "iconsax-library",
+      "path": "skills/iconsax-library",
+      "entry": "skills/iconsax-library/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "idea-darwin",
+      "path": "skills/idea-darwin",
+      "entry": "skills/idea-darwin/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "identity-mirror",
+      "path": "skills/identity-mirror",
+      "entry": "skills/identity-mirror/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ilya-sutskever",
+      "path": "skills/ilya-sutskever",
+      "entry": "skills/ilya-sutskever/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "image-craft",
+      "path": "skills/image-craft",
+      "entry": "skills/image-craft/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "image-studio",
+      "path": "skills/image-studio",
+      "entry": "skills/image-studio/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "imagen",
+      "path": "skills/imagen",
+      "entry": "skills/imagen/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "incident-and-recovery",
+      "path": "skills/incident-and-recovery",
+      "entry": "skills/incident-and-recovery/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "incident, outage, recovery"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "infinite-gratitude",
+      "path": "skills/infinite-gratitude",
+      "entry": "skills/infinite-gratitude/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "interview-coach",
+      "path": "skills/interview-coach",
+      "entry": "skills/interview-coach/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "inventory-demand-planning",
+      "path": "skills/inventory-demand-planning",
+      "entry": "skills/inventory-demand-planning/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ios-debugger-agent",
+      "path": "skills/ios-debugger-agent",
+      "entry": "skills/ios-debugger-agent/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "javascript-pro",
+      "path": "skills/javascript-pro",
+      "entry": "skills/javascript-pro/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "javascript-testing-patterns",
+      "path": "skills/javascript-testing-patterns",
+      "entry": "skills/javascript-testing-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "jobgpt",
+      "path": "skills/jobgpt",
+      "entry": "skills/jobgpt/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "jobs-to-be-done-analyst",
+      "path": "skills/jobs-to-be-done-analyst",
+      "entry": "skills/jobs-to-be-done-analyst/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "jq",
+      "path": "skills/jq",
+      "entry": "skills/jq/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "junta-leiloeiros",
+      "path": "skills/junta-leiloeiros",
+      "entry": "skills/junta-leiloeiros/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "k6-load-testing",
+      "path": "skills/k6-load-testing",
+      "entry": "skills/k6-load-testing/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "keyword-extractor",
+      "path": "skills/keyword-extractor",
+      "entry": "skills/keyword-extractor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "klaviyo-automation",
+      "path": "skills/klaviyo-automation",
+      "entry": "skills/klaviyo-automation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "kotlin-coroutines-expert",
+      "path": "skills/kotlin-coroutines-expert",
+      "entry": "skills/kotlin-coroutines-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "kubernetes-deployment",
+      "path": "skills/kubernetes-deployment",
+      "entry": "skills/kubernetes-deployment/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "landing-page-generator",
+      "path": "skills/landing-page-generator",
+      "entry": "skills/landing-page-generator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "nextjs",
+        "react",
+        "tailwind",
+        "marketing",
+        "seo",
+        "cro"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "laravel-expert",
+      "path": "skills/laravel-expert",
+      "entry": "skills/laravel-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "laravel-security-audit",
+      "path": "skills/laravel-security-audit",
+      "entry": "skills/laravel-security-audit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "latex-paper-conversion",
+      "path": "skills/latex-paper-conversion",
+      "entry": "skills/latex-paper-conversion/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "legacy-modernizer",
+      "path": "skills/legacy-modernizer",
+      "entry": "skills/legacy-modernizer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "leiloeiro-avaliacao",
+      "path": "skills/leiloeiro-avaliacao",
+      "entry": "skills/leiloeiro-avaliacao/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "leiloeiro-edital",
+      "path": "skills/leiloeiro-edital",
+      "entry": "skills/leiloeiro-edital/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "leiloeiro-ia",
+      "path": "skills/leiloeiro-ia",
+      "entry": "skills/leiloeiro-ia/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "leiloeiro-juridico",
+      "path": "skills/leiloeiro-juridico",
+      "entry": "skills/leiloeiro-juridico/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "leiloeiro-mercado",
+      "path": "skills/leiloeiro-mercado",
+      "entry": "skills/leiloeiro-mercado/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "leiloeiro-risco",
+      "path": "skills/leiloeiro-risco",
+      "entry": "skills/leiloeiro-risco/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "lex",
+      "path": "skills/lex",
+      "entry": "skills/lex/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "lightning-architecture-review",
+      "path": "skills/lightning-architecture-review",
+      "entry": "skills/lightning-architecture-review/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "lightning-channel-factories",
+      "path": "skills/lightning-channel-factories",
+      "entry": "skills/lightning-channel-factories/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "lightning-factory-explainer",
+      "path": "skills/lightning-factory-explainer",
+      "entry": "skills/lightning-factory-explainer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "linear",
+      "path": "skills/linear",
+      "entry": "skills/linear/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "linear, issue tracking, sprint board, ticket update, project workflow"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "linear-claude-skill",
+      "path": "skills/linear-claude-skill",
+      "entry": "skills/linear-claude-skill/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "linkedin-cli",
+      "path": "skills/linkedin-cli",
+      "entry": "skills/linkedin-cli/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "linux-troubleshooting",
+      "path": "skills/linux-troubleshooting",
+      "entry": "skills/linux-troubleshooting/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "llm-application-dev-ai-assistant",
+      "path": "skills/llm-application-dev-ai-assistant",
+      "entry": "skills/llm-application-dev-ai-assistant/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "llm-ops",
+      "path": "skills/llm-ops",
+      "entry": "skills/llm-ops/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "llm-prompt-optimizer",
+      "path": "skills/llm-prompt-optimizer",
+      "entry": "skills/llm-prompt-optimizer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "llm-structured-output",
+      "path": "skills/llm-structured-output",
+      "entry": "skills/llm-structured-output/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "local-legal-seo-audit",
+      "path": "skills/local-legal-seo-audit",
+      "entry": "skills/local-legal-seo-audit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "local-llm-expert",
+      "path": "skills/local-llm-expert",
+      "entry": "skills/local-llm-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "logistics-exception-management",
+      "path": "skills/logistics-exception-management",
+      "entry": "skills/logistics-exception-management/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "loss-aversion-designer",
+      "path": "skills/loss-aversion-designer",
+      "entry": "skills/loss-aversion-designer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "macos-menubar-tuist-app",
+      "path": "skills/macos-menubar-tuist-app",
+      "entry": "skills/macos-menubar-tuist-app/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "macos-spm-app-packaging",
+      "path": "skills/macos-spm-app-packaging",
+      "entry": "skills/macos-spm-app-packaging/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "magic-animator",
+      "path": "skills/magic-animator",
+      "entry": "skills/magic-animator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "magic-ui-generator",
+      "path": "skills/magic-ui-generator",
+      "entry": "skills/magic-ui-generator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "makepad-animation",
+      "path": "skills/makepad-animation",
+      "entry": "skills/makepad-animation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "makepad-dsl",
+      "path": "skills/makepad-dsl",
+      "entry": "skills/makepad-dsl/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "makepad-event-action",
+      "path": "skills/makepad-event-action",
+      "entry": "skills/makepad-event-action/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "makepad-font",
+      "path": "skills/makepad-font",
+      "entry": "skills/makepad-font/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "makepad-layout",
+      "path": "skills/makepad-layout",
+      "entry": "skills/makepad-layout/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "makepad-skills",
+      "path": "skills/makepad-skills",
+      "entry": "skills/makepad-skills/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "makepad-widgets",
+      "path": "skills/makepad-widgets",
+      "entry": "skills/makepad-widgets/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "market-sizing-analysis",
+      "path": "skills/market-sizing-analysis",
+      "entry": "skills/market-sizing-analysis/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "marketing-ideas",
+      "path": "skills/marketing-ideas",
+      "entry": "skills/marketing-ideas/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "memetic-compression",
+      "path": "skills/memetic-compression",
+      "entry": "skills/memetic-compression/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "memory-safety-patterns",
+      "path": "skills/memory-safety-patterns",
+      "entry": "skills/memory-safety-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "memory-systems",
+      "path": "skills/memory-systems",
+      "entry": "skills/memory-systems/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "mempalace",
+      "path": "skills/mempalace",
+      "entry": "skills/mempalace/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "mempalace-workflow",
+      "path": "skills/mempalace-workflow",
+      "entry": "skills/mempalace-workflow/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform",
+        "security-assurance",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "minecraft-bukkit-pro",
+      "path": "skills/minecraft-bukkit-pro",
+      "entry": "skills/minecraft-bukkit-pro/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "modern-javascript-patterns",
+      "path": "skills/modern-javascript-patterns",
+      "entry": "skills/modern-javascript-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "monorepo-architect",
+      "path": "skills/monorepo-architect",
+      "entry": "skills/monorepo-architect/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "monorepo-management",
+      "path": "skills/monorepo-management",
+      "entry": "skills/monorepo-management/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "monte-carlo-monitor-creation",
+      "path": "skills/monte-carlo-monitor-creation",
+      "entry": "skills/monte-carlo-monitor-creation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "monte-carlo-prevent",
+      "path": "skills/monte-carlo-prevent",
+      "entry": "skills/monte-carlo-prevent/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "monte-carlo-push-ingestion",
+      "path": "skills/monte-carlo-push-ingestion",
+      "entry": "skills/monte-carlo-push-ingestion/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "monte-carlo-validation-notebook",
+      "path": "skills/monte-carlo-validation-notebook",
+      "entry": "skills/monte-carlo-validation-notebook/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "moyu",
+      "path": "skills/moyu",
+      "entry": "skills/moyu/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "mq",
+      "path": "skills/mq",
+      "entry": "skills/mq/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "multi-agent-task-orchestrator",
+      "path": "skills/multi-agent-task-orchestrator",
+      "entry": "skills/multi-agent-task-orchestrator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "multi-cloud-architecture",
+      "path": "skills/multi-cloud-architecture",
+      "entry": "skills/multi-cloud-architecture/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "nanobanana-ppt-skills",
+      "path": "skills/nanobanana-ppt-skills",
+      "entry": "skills/nanobanana-ppt-skills/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "neon-postgres",
+      "path": "skills/neon-postgres",
+      "entry": "skills/neon-postgres/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "nerdzao-elite",
+      "path": "skills/nerdzao-elite",
+      "entry": "skills/nerdzao-elite/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "nerdzao-elite-gemini-high",
+      "path": "skills/nerdzao-elite-gemini-high",
+      "entry": "skills/nerdzao-elite-gemini-high/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "network-engineer",
+      "path": "skills/network-engineer",
+      "entry": "skills/network-engineer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "nextjs-app-router-patterns",
+      "path": "skills/nextjs-app-router-patterns",
+      "entry": "skills/nextjs-app-router-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "nodejs-backend-patterns",
+      "path": "skills/nodejs-backend-patterns",
+      "entry": "skills/nodejs-backend-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "objection-preemptor",
+      "path": "skills/objection-preemptor",
+      "entry": "skills/objection-preemptor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "observability-and-monitoring",
+      "path": "skills/observability-and-monitoring",
+      "entry": "skills/observability-and-monitoring/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "monitoring, observability, logging"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "obsidian-clipper-template-creator",
+      "path": "skills/obsidian-clipper-template-creator",
+      "entry": "skills/obsidian-clipper-template-creator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-accounting-setup",
+      "path": "skills/odoo-accounting-setup",
+      "entry": "skills/odoo-accounting-setup/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-automated-tests",
+      "path": "skills/odoo-automated-tests",
+      "entry": "skills/odoo-automated-tests/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-backup-strategy",
+      "path": "skills/odoo-backup-strategy",
+      "entry": "skills/odoo-backup-strategy/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-docker-deployment",
+      "path": "skills/odoo-docker-deployment",
+      "entry": "skills/odoo-docker-deployment/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-ecommerce-configurator",
+      "path": "skills/odoo-ecommerce-configurator",
+      "entry": "skills/odoo-ecommerce-configurator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-hr-payroll-setup",
+      "path": "skills/odoo-hr-payroll-setup",
+      "entry": "skills/odoo-hr-payroll-setup/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-inventory-optimizer",
+      "path": "skills/odoo-inventory-optimizer",
+      "entry": "skills/odoo-inventory-optimizer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-manufacturing-advisor",
+      "path": "skills/odoo-manufacturing-advisor",
+      "entry": "skills/odoo-manufacturing-advisor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-migration-helper",
+      "path": "skills/odoo-migration-helper",
+      "entry": "skills/odoo-migration-helper/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-module-developer",
+      "path": "skills/odoo-module-developer",
+      "entry": "skills/odoo-module-developer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-orm-expert",
+      "path": "skills/odoo-orm-expert",
+      "entry": "skills/odoo-orm-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-performance-tuner",
+      "path": "skills/odoo-performance-tuner",
+      "entry": "skills/odoo-performance-tuner/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-project-timesheet",
+      "path": "skills/odoo-project-timesheet",
+      "entry": "skills/odoo-project-timesheet/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-purchase-workflow",
+      "path": "skills/odoo-purchase-workflow",
+      "entry": "skills/odoo-purchase-workflow/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-qweb-templates",
+      "path": "skills/odoo-qweb-templates",
+      "entry": "skills/odoo-qweb-templates/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-rpc-api",
+      "path": "skills/odoo-rpc-api",
+      "entry": "skills/odoo-rpc-api/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-sales-crm-expert",
+      "path": "skills/odoo-sales-crm-expert",
+      "entry": "skills/odoo-sales-crm-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-security-rules",
+      "path": "skills/odoo-security-rules",
+      "entry": "skills/odoo-security-rules/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-upgrade-advisor",
+      "path": "skills/odoo-upgrade-advisor",
+      "entry": "skills/odoo-upgrade-advisor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "odoo-xml-views-builder",
+      "path": "skills/odoo-xml-views-builder",
+      "entry": "skills/odoo-xml-views-builder/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "office-productivity",
+      "path": "skills/office-productivity",
+      "entry": "skills/office-productivity/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "onboarding-psychologist",
+      "path": "skills/onboarding-psychologist",
+      "entry": "skills/onboarding-psychologist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "openapi-spec-generation",
+      "path": "skills/openapi-spec-generation",
+      "entry": "skills/openapi-spec-generation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "openclaw",
+      "path": "skills/openclaw",
+      "entry": "skills/openclaw/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "openclaw-github-repo-commander",
+      "path": "skills/openclaw-github-repo-commander",
+      "entry": "skills/openclaw-github-repo-commander/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "oral-health-analyzer",
+      "path": "skills/oral-health-analyzer",
+      "entry": "skills/oral-health-analyzer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "orchestrate-batch-refactor",
+      "path": "skills/orchestrate-batch-refactor",
+      "entry": "skills/orchestrate-batch-refactor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "os-scripting",
+      "path": "skills/os-scripting",
+      "entry": "skills/os-scripting/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "oss-hunter",
+      "path": "skills/oss-hunter",
+      "entry": "skills/oss-hunter/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "pakistan-payments-stack",
+      "path": "skills/pakistan-payments-stack",
+      "entry": "skills/pakistan-payments-stack/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "performance-optimizer",
+      "path": "skills/performance-optimizer",
+      "entry": "skills/performance-optimizer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "phase-gated-debugging",
+      "path": "skills/phase-gated-debugging",
+      "entry": "skills/phase-gated-debugging/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "pipecat-friday-agent",
+      "path": "skills/pipecat-friday-agent",
+      "entry": "skills/pipecat-friday-agent/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "pitch-psychologist",
+      "path": "skills/pitch-psychologist",
+      "entry": "skills/pitch-psychologist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "playwright-java",
+      "path": "skills/playwright-java",
+      "entry": "skills/playwright-java/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "postgres-best-practices",
+      "path": "skills/postgres-best-practices",
+      "entry": "skills/postgres-best-practices/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "postgresql-optimization",
+      "path": "skills/postgresql-optimization",
+      "entry": "skills/postgresql-optimization/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "price-psychology-strategist",
+      "path": "skills/price-psychology-strategist",
+      "entry": "skills/price-psychology-strategist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "privacy-by-design",
+      "path": "skills/privacy-by-design",
+      "entry": "skills/privacy-by-design/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "problem-framing",
+      "path": "skills/problem-framing",
+      "entry": "skills/problem-framing/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "framing, advice, strategy, clarity"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "product-manager",
+      "path": "skills/product-manager",
+      "entry": "skills/product-manager/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "saas",
+        "frameworks",
+        "metrics",
+        "strategy"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "production-scheduling",
+      "path": "skills/production-scheduling",
+      "entry": "skills/production-scheduling/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "professional-proofreader",
+      "path": "skills/professional-proofreader",
+      "entry": "skills/professional-proofreader/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "progressive-estimation",
+      "path": "skills/progressive-estimation",
+      "entry": "skills/progressive-estimation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "progressive-web-app",
+      "path": "skills/progressive-web-app",
+      "entry": "skills/progressive-web-app/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "project-skill-audit",
+      "path": "skills/project-skill-audit",
+      "entry": "skills/project-skill-audit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "project-switcher",
+      "path": "skills/project-switcher",
+      "entry": "skills/project-switcher/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "projection-patterns",
+      "path": "skills/projection-patterns",
+      "entry": "skills/projection-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "prompt-engineer",
+      "path": "skills/prompt-engineer",
+      "entry": "skills/prompt-engineer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "protect-mcp-governance",
+      "path": "skills/protect-mcp-governance",
+      "entry": "skills/protect-mcp-governance/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "protocol-reverse-engineering",
+      "path": "skills/protocol-reverse-engineering",
+      "entry": "skills/protocol-reverse-engineering/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "puzzle-activity-planner",
+      "path": "skills/puzzle-activity-planner",
+      "entry": "skills/puzzle-activity-planner/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "pydantic-ai",
+      "path": "skills/pydantic-ai",
+      "entry": "skills/pydantic-ai/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "pypict-skill",
+      "path": "skills/pypict-skill",
+      "entry": "skills/pypict-skill/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "python-fastapi-development",
+      "path": "skills/python-fastapi-development",
+      "entry": "skills/python-fastapi-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "python-packaging",
+      "path": "skills/python-packaging",
+      "entry": "skills/python-packaging/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "python-performance-optimization",
+      "path": "skills/python-performance-optimization",
+      "entry": "skills/python-performance-optimization/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "python-pptx-generator",
+      "path": "skills/python-pptx-generator",
+      "entry": "skills/python-pptx-generator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "python-testing-patterns",
+      "path": "skills/python-testing-patterns",
+      "entry": "skills/python-testing-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "quality-nonconformance",
+      "path": "skills/quality-nonconformance",
+      "entry": "skills/quality-nonconformance/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "quant-analyst",
+      "path": "skills/quant-analyst",
+      "entry": "skills/quant-analyst/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "radix-ui-design-system",
+      "path": "skills/radix-ui-design-system",
+      "entry": "skills/radix-ui-design-system/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "rag-implementation",
+      "path": "skills/rag-implementation",
+      "entry": "skills/rag-implementation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "rayden-code",
+      "path": "skills/rayden-code",
+      "entry": "skills/rayden-code/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "rayden-use",
+      "path": "skills/rayden-use",
+      "entry": "skills/rayden-use/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "react-best-practices",
+      "path": "skills/react-best-practices",
+      "entry": "skills/react-best-practices/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "react-component-performance",
+      "path": "skills/react-component-performance",
+      "entry": "skills/react-component-performance/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "react-modernization",
+      "path": "skills/react-modernization",
+      "entry": "skills/react-modernization/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "react-native-architecture",
+      "path": "skills/react-native-architecture",
+      "entry": "skills/react-native-architecture/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "react-nextjs-development",
+      "path": "skills/react-nextjs-development",
+      "entry": "skills/react-nextjs-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "react-patterns",
+      "path": "skills/react-patterns",
+      "entry": "skills/react-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "readme",
+      "path": "skills/readme",
+      "entry": "skills/readme/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "recallmax",
+      "path": "skills/recallmax",
+      "entry": "skills/recallmax/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "recursive-improvement-loop",
+      "path": "skills/recursive-improvement-loop",
+      "entry": "skills/recursive-improvement-loop/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "improvement, learning loop, drift correction, feedback capture"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "remotion-best-practices",
+      "path": "skills/remotion-best-practices",
+      "entry": "skills/remotion-best-practices/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "returns-reverse-logistics",
+      "path": "skills/returns-reverse-logistics",
+      "entry": "skills/returns-reverse-logistics/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "risk-manager",
+      "path": "skills/risk-manager",
+      "entry": "skills/risk-manager/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "risk-metrics-calculation",
+      "path": "skills/risk-metrics-calculation",
+      "entry": "skills/risk-metrics-calculation/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "rust-async-patterns",
+      "path": "skills/rust-async-patterns",
+      "entry": "skills/rust-async-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "saas-multi-tenant",
+      "path": "skills/saas-multi-tenant",
+      "entry": "skills/saas-multi-tenant/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "saas-mvp-launcher",
+      "path": "skills/saas-mvp-launcher",
+      "entry": "skills/saas-mvp-launcher/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "salesforce-development",
+      "path": "skills/salesforce-development",
+      "entry": "skills/salesforce-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "sam-altman",
+      "path": "skills/sam-altman",
+      "entry": "skills/sam-altman/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "sankhya-dashboard-html-jsp-custom-best-pratices",
+      "path": "skills/sankhya-dashboard-html-jsp-custom-best-pratices",
+      "entry": "skills/sankhya-dashboard-html-jsp-custom-best-pratices/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "satori",
+      "path": "skills/satori",
+      "entry": "skills/satori/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "scala-pro",
+      "path": "skills/scala-pro",
+      "entry": "skills/scala-pro/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "scarcity-urgency-psychologist",
+      "path": "skills/scarcity-urgency-psychologist",
+      "entry": "skills/scarcity-urgency-psychologist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "screen-reader-testing",
+      "path": "skills/screen-reader-testing",
+      "entry": "skills/screen-reader-testing/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "screenshots",
+      "path": "skills/screenshots",
+      "entry": "skills/screenshots/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "security-and-auth",
+      "path": "skills/security-and-auth",
+      "entry": "skills/security-and-auth/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "auth, security, permissions"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "security-audit",
+      "path": "skills/security-audit",
+      "entry": "skills/security-audit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "security-compliance-compliance-check",
+      "path": "skills/security-compliance-compliance-check",
+      "entry": "skills/security-compliance-compliance-check/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "security-first-pass",
+      "path": "skills/security-first-pass",
+      "entry": "skills/security-first-pass/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "quick security scan, first-pass review, secret scan"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "security-requirement-extraction",
+      "path": "skills/security-requirement-extraction",
+      "entry": "skills/security-requirement-extraction/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "security-scanning-security-dependencies",
+      "path": "skills/security-scanning-security-dependencies",
+      "entry": "skills/security-scanning-security-dependencies/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seek-and-analyze-video",
+      "path": "skills/seek-and-analyze-video",
+      "entry": "skills/seek-and-analyze-video/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "segment-cdp",
+      "path": "skills/segment-cdp",
+      "entry": "skills/segment-cdp/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "senior-frontend",
+      "path": "skills/senior-frontend",
+      "entry": "skills/senior-frontend/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-aeo-blog-writer",
+      "path": "skills/seo-aeo-blog-writer",
+      "entry": "skills/seo-aeo-blog-writer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-aeo-content-cluster",
+      "path": "skills/seo-aeo-content-cluster",
+      "entry": "skills/seo-aeo-content-cluster/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-aeo-content-quality-auditor",
+      "path": "skills/seo-aeo-content-quality-auditor",
+      "entry": "skills/seo-aeo-content-quality-auditor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-aeo-internal-linking",
+      "path": "skills/seo-aeo-internal-linking",
+      "entry": "skills/seo-aeo-internal-linking/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-aeo-keyword-research",
+      "path": "skills/seo-aeo-keyword-research",
+      "entry": "skills/seo-aeo-keyword-research/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-aeo-landing-page-writer",
+      "path": "skills/seo-aeo-landing-page-writer",
+      "entry": "skills/seo-aeo-landing-page-writer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-aeo-meta-description-generator",
+      "path": "skills/seo-aeo-meta-description-generator",
+      "entry": "skills/seo-aeo-meta-description-generator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-aeo-schema-generator",
+      "path": "skills/seo-aeo-schema-generator",
+      "entry": "skills/seo-aeo-schema-generator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-audit",
+      "path": "skills/seo-audit",
+      "entry": "skills/seo-audit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-content-auditor",
+      "path": "skills/seo-content-auditor",
+      "entry": "skills/seo-content-auditor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-forensic-incident-response",
+      "path": "skills/seo-forensic-incident-response",
+      "entry": "skills/seo-forensic-incident-response/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-fundamentals",
+      "path": "skills/seo-fundamentals",
+      "entry": "skills/seo-fundamentals/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-images",
+      "path": "skills/seo-images",
+      "entry": "skills/seo-images/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "seo-page",
+      "path": "skills/seo-page",
+      "entry": "skills/seo-page/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "sequence-psychologist",
+      "path": "skills/sequence-psychologist",
+      "entry": "skills/sequence-psychologist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "server-management",
+      "path": "skills/server-management",
+      "entry": "skills/server-management/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "service-mesh-expert",
+      "path": "skills/service-mesh-expert",
+      "entry": "skills/service-mesh-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "sessions",
+      "path": "skills/sessions",
+      "entry": "skills/sessions/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "shadcn",
+      "path": "skills/shadcn",
+      "entry": "skills/shadcn/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "shader-programming-glsl",
+      "path": "skills/shader-programming-glsl",
+      "entry": "skills/shader-programming-glsl/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "shopify-apps",
+      "path": "skills/shopify-apps",
+      "entry": "skills/shopify-apps/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "similarity-search-patterns",
+      "path": "skills/similarity-search-patterns",
+      "entry": "skills/similarity-search-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "simplify-code",
+      "path": "skills/simplify-code",
+      "entry": "skills/simplify-code/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-check",
+      "path": "skills/skill-check",
+      "entry": "skills/skill-check/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-creator",
+      "path": "skills/skill-creator",
+      "entry": "skills/skill-creator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-installer",
+      "path": "skills/skill-installer",
+      "entry": "skills/skill-installer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-optimizer",
+      "path": "skills/skill-optimizer",
+      "entry": "skills/skill-optimizer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-packager",
+      "path": "skills/skill-packager",
+      "entry": "skills/skill-packager/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "create skill, package skill, scaffold skill"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "skill-rails-upgrade",
+      "path": "skills/skill-rails-upgrade",
+      "entry": "skills/skill-rails-upgrade/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-router",
+      "path": "skills/skill-router",
+      "entry": "skills/skill-router/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-seekers",
+      "path": "skills/skill-seekers",
+      "entry": "skills/skill-seekers/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-sentinel",
+      "path": "skills/skill-sentinel",
+      "entry": "skills/skill-sentinel/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "skill-validator",
+      "path": "skills/skill-validator",
+      "entry": "skills/skill-validator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [
+        "validate skill, skill lint, skill structure"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "skin-health-analyzer",
+      "path": "skills/skin-health-analyzer",
+      "entry": "skills/skin-health-analyzer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "snowflake-development",
+      "path": "skills/snowflake-development",
+      "entry": "skills/snowflake-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "social-proof-architect",
+      "path": "skills/social-proof-architect",
+      "entry": "skills/social-proof-architect/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "solidity-security",
+      "path": "skills/solidity-security",
+      "entry": "skills/solidity-security/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "spline-3d-integration",
+      "path": "skills/spline-3d-integration",
+      "entry": "skills/spline-3d-integration/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "sql-optimization-patterns",
+      "path": "skills/sql-optimization-patterns",
+      "entry": "skills/sql-optimization-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "stability-ai",
+      "path": "skills/stability-ai",
+      "entry": "skills/stability-ai/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "startup-metrics-framework",
+      "path": "skills/startup-metrics-framework",
+      "entry": "skills/startup-metrics-framework/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "steve-jobs",
+      "path": "skills/steve-jobs",
+      "entry": "skills/steve-jobs/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "stitch-ui-design",
+      "path": "skills/stitch-ui-design",
+      "entry": "skills/stitch-ui-design/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "stride-analysis-patterns",
+      "path": "skills/stride-analysis-patterns",
+      "entry": "skills/stride-analysis-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "subject-line-psychologist",
+      "path": "skills/subject-line-psychologist",
+      "entry": "skills/subject-line-psychologist/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "superpowers-lab",
+      "path": "skills/superpowers-lab",
+      "entry": "skills/superpowers-lab/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "sveltekit",
+      "path": "skills/sveltekit",
+      "entry": "skills/sveltekit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "swift-concurrency-expert",
+      "path": "skills/swift-concurrency-expert",
+      "entry": "skills/swift-concurrency-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "swiftui-liquid-glass",
+      "path": "skills/swiftui-liquid-glass",
+      "entry": "skills/swiftui-liquid-glass/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "swiftui-performance-audit",
+      "path": "skills/swiftui-performance-audit",
+      "entry": "skills/swiftui-performance-audit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "swiftui-ui-patterns",
+      "path": "skills/swiftui-ui-patterns",
+      "entry": "skills/swiftui-ui-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "swiftui-view-refactor",
+      "path": "skills/swiftui-view-refactor",
+      "entry": "skills/swiftui-view-refactor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "tailwind-design-system",
+      "path": "skills/tailwind-design-system",
+      "entry": "skills/tailwind-design-system/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "tanstack-query-expert",
+      "path": "skills/tanstack-query-expert",
+      "entry": "skills/tanstack-query-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "team-collaboration-issue",
+      "path": "skills/team-collaboration-issue",
+      "entry": "skills/team-collaboration-issue/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "technical-change-tracker",
+      "path": "skills/technical-change-tracker",
+      "entry": "skills/technical-change-tracker/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "temporal-golang-pro",
+      "path": "skills/temporal-golang-pro",
+      "entry": "skills/temporal-golang-pro/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "terraform-infrastructure",
+      "path": "skills/terraform-infrastructure",
+      "entry": "skills/terraform-infrastructure/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "terraform-skill",
+      "path": "skills/terraform-skill",
+      "entry": "skills/terraform-skill/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "test-fixing",
+      "path": "skills/test-fixing",
+      "entry": "skills/test-fixing/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "testing-qa",
+      "path": "skills/testing-qa",
+      "entry": "skills/testing-qa/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "threat-mitigation-mapping",
+      "path": "skills/threat-mitigation-mapping",
+      "entry": "skills/threat-mitigation-mapping/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "threejs-skills",
+      "path": "skills/threejs-skills",
+      "entry": "skills/threejs-skills/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "tmux",
+      "path": "skills/tmux",
+      "entry": "skills/tmux/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "tool-design",
+      "path": "skills/tool-design",
+      "entry": "skills/tool-design/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "tool-use-guardian",
+      "path": "skills/tool-use-guardian",
+      "entry": "skills/tool-use-guardian/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "track-management",
+      "path": "skills/track-management",
+      "entry": "skills/track-management/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "trust-calibrator",
+      "path": "skills/trust-calibrator",
+      "entry": "skills/trust-calibrator/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "tutorial-engineer",
+      "path": "skills/tutorial-engineer",
+      "entry": "skills/tutorial-engineer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "typescript-advanced-types",
+      "path": "skills/typescript-advanced-types",
+      "entry": "skills/typescript-advanced-types/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "typescript-pro",
+      "path": "skills/typescript-pro",
+      "entry": "skills/typescript-pro/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ui-a11y",
+      "path": "skills/ui-a11y",
+      "entry": "skills/ui-a11y/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ui-component",
+      "path": "skills/ui-component",
+      "entry": "skills/ui-component/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ui-page",
+      "path": "skills/ui-page",
+      "entry": "skills/ui-page/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ui-pattern",
+      "path": "skills/ui-pattern",
+      "entry": "skills/ui-pattern/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ui-review",
+      "path": "skills/ui-review",
+      "entry": "skills/ui-review/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ui-setup",
+      "path": "skills/ui-setup",
+      "entry": "skills/ui-setup/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ui-skills",
+      "path": "skills/ui-skills",
+      "entry": "skills/ui-skills/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ui-tokens",
+      "path": "skills/ui-tokens",
+      "entry": "skills/ui-tokens/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "uncle-bob-craft",
+      "path": "skills/uncle-bob-craft",
+      "entry": "skills/uncle-bob-craft/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "uniprot-database",
+      "path": "skills/uniprot-database",
+      "entry": "skills/uniprot-database/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "unity-ecs-patterns",
+      "path": "skills/unity-ecs-patterns",
+      "entry": "skills/unity-ecs-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "unreal-engine-cpp-pro",
+      "path": "skills/unreal-engine-cpp-pro",
+      "entry": "skills/unreal-engine-cpp-pro/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "unsplash-integration",
+      "path": "skills/unsplash-integration",
+      "entry": "skills/unsplash-integration/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "upgrading-expo",
+      "path": "skills/upgrading-expo",
+      "entry": "skills/upgrading-expo/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "using-neon",
+      "path": "skills/using-neon",
+      "entry": "skills/using-neon/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "uv-package-manager",
+      "path": "skills/uv-package-manager",
+      "entry": "skills/uv-package-manager/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ux-audit",
+      "path": "skills/ux-audit",
+      "entry": "skills/ux-audit/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ux-copy",
+      "path": "skills/ux-copy",
+      "entry": "skills/ux-copy/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ux-feedback",
+      "path": "skills/ux-feedback",
+      "entry": "skills/ux-feedback/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ux-flow",
+      "path": "skills/ux-flow",
+      "entry": "skills/ux-flow/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "ux-persuasion-engineer",
+      "path": "skills/ux-persuasion-engineer",
+      "entry": "skills/ux-persuasion-engineer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "uxui-principles",
+      "path": "skills/uxui-principles",
+      "entry": "skills/uxui-principles/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "varlock-claude-skill",
+      "path": "skills/varlock-claude-skill",
+      "entry": "skills/varlock-claude-skill/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "vector-index-tuning",
+      "path": "skills/vector-index-tuning",
+      "entry": "skills/vector-index-tuning/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "vercel-ai-sdk-expert",
+      "path": "skills/vercel-ai-sdk-expert",
+      "entry": "skills/vercel-ai-sdk-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience",
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "vercel-deployment",
+      "path": "skills/vercel-deployment",
+      "entry": "skills/vercel-deployment/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "reliability-operations"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "vexor",
+      "path": "skills/vexor",
+      "entry": "skills/vexor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "vibe-code-auditor",
+      "path": "skills/vibe-code-auditor",
+      "entry": "skills/vibe-code-auditor/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "viboscope",
+      "path": "skills/viboscope",
+      "entry": "skills/viboscope/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "videodb",
+      "path": "skills/videodb",
+      "entry": "skills/videodb/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "videodb-skills",
+      "path": "skills/videodb-skills",
+      "entry": "skills/videodb-skills/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "visual-emotion-engineer",
+      "path": "skills/visual-emotion-engineer",
+      "entry": "skills/visual-emotion-engineer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "vizcom",
+      "path": "skills/vizcom",
+      "entry": "skills/vizcom/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "voice-agents",
+      "path": "skills/voice-agents",
+      "entry": "skills/voice-agents/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "warren-buffett",
+      "path": "skills/warren-buffett",
+      "entry": "skills/warren-buffett/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "wcag-audit-patterns",
+      "path": "skills/wcag-audit-patterns",
+      "entry": "skills/wcag-audit-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "web-design-guidelines",
+      "path": "skills/web-design-guidelines",
+      "entry": "skills/web-design-guidelines/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "web-scraper",
+      "path": "skills/web-scraper",
+      "entry": "skills/web-scraper/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "web-security-testing",
+      "path": "skills/web-security-testing",
+      "entry": "skills/web-security-testing/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "security-assurance",
+        "identity-access"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "weightloss-analyzer",
+      "path": "skills/weightloss-analyzer",
+      "entry": "skills/weightloss-analyzer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "wiki-qa",
+      "path": "skills/wiki-qa",
+      "entry": "skills/wiki-qa/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "wiki-researcher",
+      "path": "skills/wiki-researcher",
+      "entry": "skills/wiki-researcher/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "windows-shell-reliability",
+      "path": "skills/windows-shell-reliability",
+      "entry": "skills/windows-shell-reliability/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "wordpress",
+      "path": "skills/wordpress",
+      "entry": "skills/wordpress/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "wordpress-plugin-development",
+      "path": "skills/wordpress-plugin-development",
+      "entry": "skills/wordpress-plugin-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "backend-platform",
+        "security-assurance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "wordpress-theme-development",
+      "path": "skills/wordpress-theme-development",
+      "entry": "skills/wordpress-theme-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "wordpress-woocommerce-development",
+      "path": "skills/wordpress-woocommerce-development",
+      "entry": "skills/wordpress-woocommerce-development/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "workflow-patterns",
+      "path": "skills/workflow-patterns",
+      "entry": "skills/workflow-patterns/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "writer",
+      "path": "skills/writer",
+      "entry": "skills/writer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "x-article-publisher-skill",
+      "path": "skills/x-article-publisher-skill",
+      "entry": "skills/x-article-publisher-skill/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "x-twitter-scraper",
+      "path": "skills/x-twitter-scraper",
+      "entry": "skills/x-twitter-scraper/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "xvary-stock-research",
+      "path": "skills/xvary-stock-research",
+      "entry": "skills/xvary-stock-research/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "frontend-experience"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "yann-lecun",
+      "path": "skills/yann-lecun",
+      "entry": "skills/yann-lecun/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "yann-lecun-debate",
+      "path": "skills/yann-lecun-debate",
+      "entry": "skills/yann-lecun-debate/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "yann-lecun-filosofia",
+      "path": "skills/yann-lecun-filosofia",
+      "entry": "skills/yann-lecun-filosofia/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "yann-lecun-tecnico",
+      "path": "skills/yann-lecun-tecnico",
+      "entry": "skills/yann-lecun-tecnico/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "yes-md",
+      "path": "skills/yes-md",
+      "entry": "skills/yes-md/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "youtube-summarizer",
+      "path": "skills/youtube-summarizer",
+      "entry": "skills/youtube-summarizer/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    },
+    {
+      "name": "zod-validation-expert",
+      "path": "skills/zod-validation-expert",
+      "entry": "skills/zod-validation-expert/SKILL.md",
+      "family": "imported",
+      "domains": [
+        "library-governance"
+      ],
+      "tags": [],
+      "status": "active"
+    }
+  ]
+}

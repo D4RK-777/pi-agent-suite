@@ -1,0 +1,18 @@
+{
+  "name": "security-review",
+  "description": "Comprehensive security review of auth flows and sensitive endpoints",
+  "trigger": ["security review", "security audit", "vulnerability check", "pen test"],
+  "agents": ["security", "backend", "reviewer"],
+  "skills": {
+    "security": ["security-and-auth", "security-first-pass", "expert-auth"],
+    "backend": ["backend-engineering"],
+    "reviewer": ["delivery-code-review"]
+  },
+  "steps": [
+    { "agent": "security", "description": "Identify attack surfaces and vulnerabilities" },
+    { "agent": "backend", "description": "Implement security fixes" },
+    { "agent": "security", "description": "Verify fixes" },
+    { "agent": "reviewer", "description": "Final review" }
+  ],
+  "chain_mode": "sequential"
+}

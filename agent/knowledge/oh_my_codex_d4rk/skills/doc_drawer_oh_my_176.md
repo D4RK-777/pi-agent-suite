@@ -1,0 +1,3 @@
+gainst the shared spec, with evidence that can later feed a Ralph verification pass when appropriate
+- **Best When:** The task is large, multi-lane, or blocker-sensitive enough to justify coordinated parallel execution instead of a single persistent loop
+- **Next Recommended Step:** Follow the team verification path when the coordinated execution phase finishes; escalate to a separate Ralph loop only when a later persistent verification/fix owner is still needed

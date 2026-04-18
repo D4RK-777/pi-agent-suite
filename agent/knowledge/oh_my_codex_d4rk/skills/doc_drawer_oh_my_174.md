@@ -1,0 +1,3 @@
+put:** Iterative execution progress and verification evidence tracked against the clarified criteria
+- **Best When:** The task benefits from persistent sequential completion pressure and the user wants execution to keep moving until the criteria are satisfied or a real blocker exists
+- **Next Recommended Step:** Continue Ralph's persistence loop; if work expands into coordination-heavy lanes, hand off to `$team` and keep Ralph for verification continuity

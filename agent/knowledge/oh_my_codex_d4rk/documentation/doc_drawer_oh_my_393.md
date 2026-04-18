@@ -1,0 +1,4 @@
+to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/omx-setup/SKILL.md` | 144 | 156 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/plan/SKILL.md` | 1 | 1 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
+| `skills/project-session-manager/SKILL.md` | 5 | 5 | Codex path/terminology normalization; examples updated to Codex-first conventions. | No direct runtime behavior change; instruction correctness improved. |
