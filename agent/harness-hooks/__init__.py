@@ -18,6 +18,7 @@ import sys
 import subprocess
 from dataclasses import dataclass, asdict
 from datetime import datetime
+import os
 from pathlib import Path
 from typing import Any
 
@@ -25,7 +26,7 @@ from typing import Any
 # PATHS
 # ============================================================================
 
-PI_ROOT = Path.home() / ".pi"
+PI_ROOT = Path(os.environ.get("PI_AGENT_HOME", Path.home() / ".pi"))
 AGENT_DIR = PI_ROOT / "agent"
 SESSIONS_DIR = PI_ROOT / "sessions"
 SKILLS_DIR = AGENT_DIR / "skills"

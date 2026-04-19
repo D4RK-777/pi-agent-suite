@@ -14,11 +14,12 @@ import json
 import subprocess
 import sys
 from datetime import datetime
+import os
 from pathlib import Path
 from typing import Any
 
 # Add paths
-PI_ROOT = Path.home() / ".pi"
+PI_ROOT = Path(os.environ.get("PI_AGENT_HOME", Path.home() / ".pi"))
 HARNESS_DIR = PI_ROOT / "agent" / "harness"
 SKILLS_DIR = PI_ROOT / "agent" / "skills"
 SESSIONS_DIR = PI_ROOT / "sessions"

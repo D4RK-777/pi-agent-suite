@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import sys
+import os
 from pathlib import Path
 
 HARNESS_DIR = Path(__file__).parent
@@ -23,7 +24,7 @@ from router import route as router_route, RoutingResult
 from enforcement import Enforcer, ComplianceWatcher, MemoryWatcher, WatcherPipeline
 from memory import search_memory, search_all_wings, get_memory_stats, build_memory_context, MEMORY_WINGS
 
-PI_ROOT = Path.home() / ".pi" / "agent"
+PI_ROOT = Path(os.environ.get("PI_AGENT_HOME", Path.home() / ".pi")) / "agent"
 COOKBOOKS_DIR = PI_ROOT / "cookbooks"
 
 

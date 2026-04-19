@@ -13,6 +13,7 @@ from __future__ import annotations
 import json
 import re
 from dataclasses import dataclass
+import os
 from pathlib import Path
 from typing import Any
 
@@ -349,7 +350,7 @@ class Enforcer:
 # Watcher Pipeline (merged from watcher.py)
 # ---------------------------------------------------------------------------
 
-PI_ROOT_WATCHER = Path.home() / ".pi" / "agent"
+PI_ROOT_WATCHER = Path(os.environ.get("PI_AGENT_HOME", Path.home() / ".pi")) / "agent"
 
 class ComplianceWatcher:
     """Monitors agent output for harness compliance."""

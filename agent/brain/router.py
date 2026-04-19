@@ -9,7 +9,8 @@ import re
 from pathlib import Path
 from typing import Optional
 
-SKILLS_DIR = Path.home() / ".pi" / "agent" / "skills"
+_pi_home = Path(os.environ.get("PI_AGENT_HOME", Path.home() / ".pi"))
+SKILLS_DIR = _pi_home / "agent" / "skills"
 
 # Skill Registry — maps keywords to skills
 SKILL_REGISTRY = {

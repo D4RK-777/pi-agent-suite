@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 from collections import Counter
 from dataclasses import dataclass
+import os
 from pathlib import Path
 from typing import Any
 
@@ -21,7 +22,7 @@ from typing import Any
 # Config
 # ---------------------------------------------------------------------------
 
-PI_ROOT = Path.home() / ".pi"
+PI_ROOT = Path(os.environ.get("PI_AGENT_HOME", Path.home() / ".pi"))
 SKILLS_DIR = PI_ROOT / "agent" / "skills"
 BUNDLES_DIR = PI_ROOT / "agent" / "bundles"
 MANIFEST = PI_ROOT / "agent" / "manifests" / "skills.json"

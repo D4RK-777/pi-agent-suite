@@ -55,7 +55,7 @@ def load_memories() -> dict:
     """Load all memories from ChromaDB."""
     try:
         # Import mempalace
-        sys.path.insert(0, str(Path.home() / ".pi" / "agent" / "bin"))
+        sys.path.insert(0, str(Path(os.environ.get("PI_AGENT_HOME", Path.home() / ".pi")) / "agent" / "bin"))
         from mempalace_fast import search
         
         # Get all memories (using empty query to get recent)

@@ -94,7 +94,7 @@ def main():
     client = chromadb.PersistentClient(path=PALACE_PATH)
     collection = client.get_collection("mempalace_drawers")
     
-    skills_dir = Path.home() / ".pi" / "agent" / "skills"
+    skills_dir = Path(os.environ.get("PI_AGENT_HOME", Path.home() / ".pi")) / "agent" / "skills"
     
     total_chunks = 0
     
