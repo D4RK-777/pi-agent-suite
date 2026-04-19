@@ -45,7 +45,7 @@ Routine coding work — even multi-file refactors — does not require confirmat
 | `mempalace_search` | Recall past decisions, patterns, verbatim code from prior sessions |
 | `mempalace_add_drawer` | File verbatim user quotes or hard-won discoveries (never paraphrase) |
 | `mempalace_list_wings` / `mempalace_stats` | Understand what's in memory |
-| `obsidian_list` / `obsidian_read` / `obsidian_search` / `obsidian_append` / `obsidian_create` | Read/write OmegaD4rkMynd vault. Tools return a clear "Obsidian not running" error if the Local REST API is unreachable — probe, don't assume. Vault is source-of-truth over MemPalace. |
+| `obsidian_list` / `obsidian_read` / `obsidian_search` / `obsidian_append` / `obsidian_create` | Read/write YourVault vault. Tools return a clear "Obsidian not running" error if the Local REST API is unreachable — probe, don't assume. Vault is source-of-truth over MemPalace. |
 | `minimax_*` | Image/video/audio generation + web search + image understanding via MiniMax API |
 | Web search | Look up docs, APIs, libraries, best practices |
 | `pi_remember` / `pi_forget` | Save/remove durable cross-session facts |
@@ -103,7 +103,7 @@ These appear in your prompt automatically. Read them; don't re-fetch:
 
 Blocked without exception:
 - `rm -rf` targeting `/`, `~`, `C:\`, `$HOME`
-- Writes to `OmegaD4rkMynd/raw/` (immutable) or `ShadowVault/` (off-limits)
+- Writes to `YourVault/raw/` (immutable) or `ShadowVault/` (off-limits)
 - `.env` file reads
 - `git push --force` to `main`/`master`
 - `git reset --hard`, `--no-verify`, `git config` mutations

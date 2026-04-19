@@ -242,7 +242,7 @@ function formatContext(groups: Array<{ label: string; hits: Hit[] }>): string {
     "Auto-retrieved drawers from MemPalace. Generic hits cover the broad prompt;",
     "domain hits pull deep context from wings matching the prompt's topic.",
     "Treat them as background — cite or use only if relevant. Source-of-truth is",
-    "OmegaD4rkMynd when they disagree.",
+    "YourVault when they disagree.",
     "",
     sections.join("\n\n════════════════════════════\n\n"),
     "</mempalace-context>",

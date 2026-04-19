@@ -33,7 +33,7 @@ Pi Agent Suite is a three-layer intelligence system that gives any AI coding ass
         │                                             │
 ┌───────▼────────┐                         ┌──────────▼──────────┐
 │   MEMPALACE    │                         │  OBSIDIAN VAULT      │
-│   (ChromaDB)   │                         │  (OmegaD4rkMynd      │
+│   (ChromaDB)   │                         │  (YourVault      │
 │                │                         │   pattern)           │
 │  ~2500 drawers │                         │                      │
 │  wings/rooms   │                         │  wiki/ (Karpathy)    │
@@ -143,7 +143,7 @@ PreCompact ────────► mempal_precompact_hook.sh
 
 ---
 
-### Obsidian Vault (OmegaD4rkMynd pattern)
+### Obsidian Vault (YourVault pattern)
 
 The curated long-term knowledge store. Uses the **Karpathy LLM Wiki** pattern: Claude is the maintainer, you are the curator.
 

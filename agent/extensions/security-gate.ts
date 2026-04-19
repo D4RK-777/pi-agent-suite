@@ -3,7 +3,7 @@
  *
  * Intercepts `tool_call` events and blocks dangerous operations before they run.
  * Pattern lifted from disler/claude-code-hooks-mastery, adapted for pi's event API
- * and this user's specific doctrine (OmegaD4rkMynd/raw/ is immutable, ShadowVault
+ * and this user's specific doctrine (YourVault/raw/ is immutable, ShadowVault
  * is off-limits, etc).
  *
  * Philosophy:
@@ -28,8 +28,8 @@ interface Rule {
 const RX = {
   // rm -rf on anything that looks like a filesystem root, home dir, or user profile.
   rmRfRoot: /\brm\s+(-[a-zA-Z]*r[a-zA-Z]*f|-[a-zA-Z]*f[a-zA-Z]*r|--recursive\s+--force|--force\s+--recursive)\s+(\/|~|\$HOME|C:[\\/]|%USERPROFILE%)(\s|$)/i,
-  // Writing to or reading from OmegaD4rkMynd\raw\... (vault immutable rule).
-  vaultRaw: /[\\/]OmegaD4rkMynd[\\/]raw[\\/]/i,
+  // Writing to or reading from YourVault\raw\... (vault immutable rule).
+  vaultRaw: /[\\/]YourVault[\\/]raw[\\/]/i,
   // ShadowVault is off-limits per user doctrine unless they explicitly ask.
   shadowVault: /[\\/]ShadowVault[\\/]/i,
   // .env file paths — we don't want credentials leaking into model context.
@@ -86,7 +86,7 @@ const RULES: Rule[] = [
         return {
           block: true,
           reason:
-            "Blocked write to OmegaD4rkMynd/raw/. That folder is immutable by doctrine — " +
+            "Blocked write to YourVault/raw/. That folder is immutable by doctrine — " +
             "file into wiki/, decisions/, or patterns/ instead per the vault CLAUDE.md.",
         };
       }
@@ -98,7 +98,7 @@ const RULES: Rule[] = [
           return {
             block: true,
             reason:
-              "Blocked bash command that writes to OmegaD4rkMynd/raw/. That folder is immutable. " +
+              "Blocked bash command that writes to YourVault/raw/. That folder is immutable. " +
               "Only read-only commands (cat/type/rg/grep/head/tail/ls/diff/etc.) may touch raw/.",
           };
         }
@@ -115,7 +115,7 @@ const RULES: Rule[] = [
           block: true,
           reason:
             "Blocked write to ShadowVault — user's personal scratch vault is off-limits " +
-            "unless they explicitly ask. Ask first or write to OmegaD4rkMynd.",
+            "unless they explicitly ask. Ask first or write to YourVault.",
         };
       }
       return { block: false };

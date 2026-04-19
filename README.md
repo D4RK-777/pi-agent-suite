@@ -144,7 +144,7 @@ pi search "react hooks typescript"
                          │ source of truth
                          ▼
 ┌─────────────────────────────────────────────────────┐
-│  Obsidian Vault  (OmegaD4rkMynd or your own)        │
+│  Obsidian Vault  (YourVault or your own)        │
 │  Karpathy wiki · decisions · patterns · sessions    │
 └─────────────────────────────────────────────────────┘
 ```

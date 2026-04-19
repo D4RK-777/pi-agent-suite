@@ -60,4 +60,4 @@ If you can't test in a browser, **say so explicitly** in your reply. Don't claim
 
 ## When you're not sure
 
-Check `OmegaD4rkMynd/patterns/` and `OmegaD4rkMynd/decisions/` via `obsidian_search` — patterns that have survived review are stored there. If a pattern exists, follow it; if it doesn't, follow this skill and suggest the user add it.
+Check `YourVault/patterns/` and `YourVault/decisions/` via `obsidian_search` — patterns that have survived review are stored there. If a pattern exists, follow it; if it doesn't, follow this skill and suggest the user add it.

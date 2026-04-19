@@ -2,8 +2,8 @@
  * pi Auto-Memory Layer (unified with Claude Code's memory)
  *
  * Points at Claude Code's memory dir so pi and Claude share one memory index:
- *   ~/.claude/projects/C--Users-chris/memory/MEMORY.md         (index)
- *   ~/.claude/projects/C--Users-chris/memory/{type}_{slug}.md  (per-topic)
+ *   ~/.claude/projects/<sanitized-cwd>/memory/MEMORY.md         (index)
+ *   ~/.claude/projects/<sanitized-cwd>/memory/{type}_{slug}.md  (per-topic)
  *
  * Same frontmatter schema Claude uses. Four memory types: user, feedback,
  * project, reference. What pi learns via pi_remember also shows up in Claude's
@@ -29,8 +29,10 @@ import { join } from "path";
 
 // Canonical memory path = Claude Code's memory dir. PI_MEMORY_DIR env var
 // overrides for advanced users (e.g. to run pi in isolation during testing).
+// Claude Code sanitizes the project path into a directory name (replaces separators with "-").
+// Set PI_MEMORY_DIR to point at your Claude memory folder, or leave unset to use ~/.pi/memory/.
 const MEMORY_DIR = process.env.PI_MEMORY_DIR
-  || join(homedir(), ".claude", "projects", "C--Users-chris", "memory");
+  || join(homedir(), ".pi", "memory");
 const INDEX_FILE = join(MEMORY_DIR, "MEMORY.md");
 const MAX_INJECT_CHARS = 12000;
 

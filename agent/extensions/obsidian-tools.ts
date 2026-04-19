@@ -1,9 +1,9 @@
 /**
  * Obsidian Tools Extension for PI Agent
  *
- * Bridges the MiniMax (or any pi) agent to OmegaD4rkMynd via the Local REST API plugin.
- * Uses the insecure (http) port 27123 — already enabled on OmegaD4rkMynd.
- * Token lives in-plugin at `OmegaD4rkMynd/.obsidian/plugins/obsidian-local-rest-api/data.json`.
+ * Bridges the pi agent to your Obsidian vault via the Local REST API plugin.
+ * Set OBSIDIAN_VAULT to your vault path and OBSIDIAN_API_KEY to your plugin token.
+ * Token lives in-plugin at <vault>/.obsidian/plugins/obsidian-local-rest-api/data.json.
  *
  * Tools:
  *   - obsidian_list:    list folder contents
@@ -12,7 +12,7 @@
  *   - obsidian_append:  append content to an existing note (safe for daily notes, log.md)
  *   - obsidian_create:  create (or overwrite) a note at a given path
  *
- * Source-of-truth rule: OmegaD4rkMynd > MemPalace. When this extension and
+ * Source-of-truth rule: Obsidian vault > MemPalace. When this extension and
  * mempalace-tools disagree, trust Obsidian — then re-mine to refresh MemPalace.
  */
 
@@ -28,8 +28,9 @@ function loadObsidianToken(): { token: string; baseUrl: string } {
   if (envToken && envBase) return { token: envToken, baseUrl: envBase };
 
   try {
-    const home = process.env.USERPROFILE || process.env.HOME || "";
-    const dataPath = join(home, "OmegaD4rkMynd", ".obsidian", "plugins", "obsidian-local-rest-api", "data.json");
+    const vaultPath = process.env.OBSIDIAN_VAULT || "";
+    if (!vaultPath) throw new Error("OBSIDIAN_VAULT not set");
+    const dataPath = join(vaultPath, ".obsidian", "plugins", "obsidian-local-rest-api", "data.json");
     const data = JSON.parse(readFileSync(dataPath, "utf-8")) as {
       apiKey?: string;
       insecurePort?: number;
@@ -128,7 +129,7 @@ export default function (pi: ExtensionAPI) {
   pi.registerTool({
     name: "obsidian_list",
     label: "Obsidian List Files",
-    description: "List files/folders under an OmegaD4rkMynd path. Pass '' for vault root.",
+    description: "List files/folders under an YourVault path. Pass '' for vault root.",
     parameters: Type.Object({
       folder: Type.Optional(Type.String({ description: "Folder path relative to vault root. Empty for root.", default: "" })),
     }),
@@ -153,7 +154,7 @@ export default function (pi: ExtensionAPI) {
   pi.registerTool({
     name: "obsidian_read",
     label: "Obsidian Read File",
-    description: "Read a note from OmegaD4rkMynd. Path is relative to vault root, e.g. 'wiki/concepts/jwt.md'.",
+    description: "Read a note from YourVault. Path is relative to vault root, e.g. 'wiki/concepts/jwt.md'.",
     parameters: Type.Object({
       path: Type.String({ description: "Path relative to vault root (include .md)" }),
     }),
@@ -179,7 +180,7 @@ export default function (pi: ExtensionAPI) {
     name: "obsidian_search",
     label: "Obsidian Search",
     description:
-      "Full-text search across OmegaD4rkMynd. Returns matching filenames + snippets. " +
+      "Full-text search across YourVault. Returns matching filenames + snippets. " +
       "Use this before creating a new wiki page — append/refine existing pages rather than duplicating.",
     parameters: Type.Object({
       query: Type.String({ description: "Search string. Obsidian simple-search semantics." }),
@@ -248,7 +249,7 @@ export default function (pi: ExtensionAPI) {
     name: "obsidian_create",
     label: "Obsidian Create File",
     description:
-      "Create a new note (or overwrite if exists) in OmegaD4rkMynd. Route by content type: " +
+      "Create a new note (or overwrite if exists) in YourVault. Route by content type: " +
       "patterns/ for reusable code/design patterns, decisions/YYYY-MM-DD-{slug}.md for architectural commits, " +
       "wiki/concepts/ for atomic concepts, wiki/syntheses/ for cross-cutting analysis. " +
       "NEVER write to raw/ — it's immutable.",

@@ -5,7 +5,7 @@
  * Requires environment variables:
  *   MINIMAX_API_KEY - Your MiniMax API key
  *   MINIMAX_API_HOST - API host (https://api.minimax.io for global)
- *   MINIMAX_MCP_BASE_PATH - Output directory (e.g., C:\\Users\\chris\\Desktop)
+ *   MINIMAX_MCP_BASE_PATH - Output directory for generated files (e.g., ~/Desktop)
  */
 
 import type { ExtensionAPI, ExtensionContext } from "@mariozechner/pi-coding-agent";

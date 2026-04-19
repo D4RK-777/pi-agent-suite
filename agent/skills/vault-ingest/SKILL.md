@@ -1,11 +1,11 @@
 ---
 name: vault-ingest
-description: Use when the user asks to "save this note", "file this decision", "add to the vault", or mentions Obsidian/OmegaD4rkMynd writes. Routes content to the correct PARA folder per vault doctrine.
+description: Use when the user asks to "save this note", "file this decision", "add to the vault", or mentions Obsidian/YourVault writes. Routes content to the correct PARA folder per vault doctrine.
 ---
 
 # vault-ingest
 
-Route writes to `OmegaD4rkMynd/` correctly. Wrong folder = knowledge debt.
+Route writes to `YourVault/` correctly. Wrong folder = knowledge debt.
 
 ## Routing table
 
@@ -58,4 +58,4 @@ The difference:
 
 ## Canonical reference
 
-Read `OmegaD4rkMynd/CLAUDE.md` for the full vault operating manual. It defines ingest/query/lint ops and the full frontmatter schemas for all five page types. That file is canonical — do not improvise vault operations from this skill alone if they conflict.
+Read `YourVault/CLAUDE.md` for the full vault operating manual. It defines ingest/query/lint ops and the full frontmatter schemas for all five page types. That file is canonical — do not improvise vault operations from this skill alone if they conflict.

@@ -63,8 +63,11 @@ function piEntry(): { command: string; leadingArgs: string[] } {
   }
 
   if (process.platform === "win32") {
-    const jsPath = "C:\\Users\\chris\\AppData\\Roaming\\npm\\node_modules\\@mariozechner\\pi-coding-agent\\dist\\cli.js";
-    return { command: process.execPath, leadingArgs: [jsPath] };
+    // Windows .cmd shims can't be spawned with shell:false; use the raw JS entry point instead.
+    // %APPDATA%\npm is the default npm global prefix on Windows.
+    const appData = process.env.APPDATA || "";
+    const jsPath = require("path").join(appData, "npm", "node_modules", "@mariozechner", "pi-coding-agent", "dist", "cli.js");
+    if (require("fs").existsSync(jsPath)) return { command: process.execPath, leadingArgs: [jsPath] };
   }
 
   return { command: "pi", leadingArgs: [] };
