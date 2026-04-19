@@ -236,3 +236,12 @@ Write-Host "  2. Mine a project:    mempalace mine C:\path\to\your-project"
 Write-Host "  3. Test the harness:  python -m harness route 'build a login form'"
 Write-Host "  4. Open Claude Code — hooks fire automatically"
 Write-Host ""
+
+# ─── Welcome picker (buddy + theme) ───────────────────────────────────────────
+Write-Host ""
+Write-Info "Launching personalisation picker..."
+try {
+    & $PYTHON "$PiHome\agent\bin\pi_welcome.py"
+} catch {
+    Write-Warn "Welcome picker skipped. Re-run: python $PiHome\agent\bin\pi_welcome.py"
+}

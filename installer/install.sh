@@ -257,3 +257,8 @@ echo "  4. Open Claude Code — hooks fire automatically"
 echo ""
 echo "Docs: https://github.com/YOUR_ORG/pi-agent-suite"
 echo ""
+
+# ─── Welcome picker (buddy + theme) ──────────────────────────────────────────
+echo ""
+info "Launching personalisation picker..."
+python3 "$PI_HOME/agent/bin/pi_welcome.py" || warn "Welcome picker skipped (re-run: python3 ~/.pi/agent/bin/pi_welcome.py)"
