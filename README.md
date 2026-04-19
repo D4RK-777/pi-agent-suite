@@ -42,13 +42,13 @@ Works with Claude Code, OpenAI Codex, Cline, Cursor, Windsurf, and any AI client
 ### Option A — Bash installer (Mac / Linux / Windows Git Bash)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_ORG/pi-agent-suite/main/installer/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/D4RK-777/pi-agent-suite/main/installer/install.sh | bash
 ```
 
 Or clone and run locally:
 
 ```bash
-git clone https://github.com/YOUR_ORG/pi-agent-suite.git
+git clone https://github.com/D4RK-777/pi-agent-suite.git
 cd pi-agent-suite
 bash installer/install.sh
 ```
@@ -56,7 +56,7 @@ bash installer/install.sh
 ### Option B — PowerShell installer (Windows)
 
 ```powershell
-git clone https://github.com/YOUR_ORG/pi-agent-suite.git
+git clone https://github.com/D4RK-777/pi-agent-suite.git
 cd pi-agent-suite
 .\installer\install.ps1
 ```
